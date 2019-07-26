@@ -1,0 +1,227 @@
+//Laravel 5.4 Tutorial | Send Email To Gmail #1 | Part 24 | Bitfumes
+https://www.youtube.com/watch?v=a08ouL3wjjQ-
+
+-- and add this at the bottom of config/mail.php
+
+    'stream' => [
+        'ssl' => [
+            'allow_self_signed' => true,
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+        ],
+
+
+
+ 2. installing pdf library
+ - composer require barryvdh/laravel-dompdf
+
+ 3. installing ms word library
+ - https://itsolutionstuff.com/post/laravel-5-create-word-document-file-using-phpoffice-phpword-packageexample.html
+ - composer require phpoffice/phpword
+ - https://github.com/PHPOffice/PHPWord
+
+ 4. quotation system
+ - https://github.com/themohammeda/Quotation-System
+
+
+
+ 5. language switcher
+ -https://github.com/mcamara/laravel-localization#installation
+ -https://github.com/josiasmontag/laravel-localization
+
+
+6. entered value from child window to parent window
+- http://www.plus2net.com/javascript_tutorial/window-child3.php
+
+
+
+// doc file to html converter
+https://www.onlineconverter.com/html-to-docx
+https://www.zamzar.com/
+
+how to use htmltodocx
+
+javascript convert html to docx
+
+
+quotation letter in tinymce and print to portrait size
+
+tinyMCE contents size protrait
+
+download tinymce 3 gihub
+
+TinyMCE export to doc not working
+
+
+tinymce ExportToDoc tutorials
+
+
+where to download TinyMCE 3.x
+
+convert external css to inline css online generator
+
+convert docx to html with inline css online ge	nerator
+
+
+bootstrap glyphicon not working
+
+//bootstrap 4 feather icon
+https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/rtl/vertical-menu-template-light/icons-feather.html
+
+
+//feather icon
+https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/rtl/vertical-menu-template-light/icons-feather.html
+
+
+//mpdf tuts support
+https://mpdf.github.io/html-support/html-tags.html
+
+
+//converter
+http://pdf2doc.com/
+
+
+
+I need complete sample format quotation of the following..
+
+Request for quotation from supplier(s)
+Quotation sent to client: the quotation sent to client is the file you just made the PDF for.
+SEND CONFIRMATION TO SUPPLIER
+GENERATE CONFIRMATION TO CLIENT DOC
+
+
+//mpdf html to pdf
+https://mpdf.github.io/reference/mpdf-functions/writehtml.html
+
+
+
+//window.open case submit form, reload parent, and close child
+-submit form, reload parent, and close child
+- reload parent from childs submit
+-   <button type="submit" id="form-btn" class="btn btn-success pull-right" onclick="doTheSubmit();">Send</button>
+                      <input type="reset" class="btn btn-danger" value="Clear" />
+                      <script type="text/javascript">
+                      function doTheSubmit() {
+                        window.opener.location.reload(); //reload parent windows
+                      }
+                      </script> it's from child form
+
+
+- best answer:
+ - add this to your ajax succes message area window.opener.location.reload(); if you want to load parent windows from child windows form submitted by ajax :)
+
+
+//laravel asks
+1. where to find logs in laravel 5.4?
+- storage/logs/laravel.log
+
+
+//CHANGES TO BELTECH SYSTEM
+
+1. multiple attachment for uploading pdf.
+2. exclusivity when creating new supplier choose yes/no //ok
+3. the primary contact //ok
+4. dynamic
+5. house number number and text
+6. language selection for
+- for each quotation create
+
+
+https://www.youtube.com/watch?v=VUYbMKqtvys
+https://www.youtube.com/watch?v=0dOaCJn3OZE
+https://www.youtube.com/watch?v=IvS4V10cKTM
+https://www.youtube.com/watch?v=Ducqx-3WMZo
+https://www.youtube.com/watch?v=xepi83QnZTE
+
+
+
+//https://www.youtube.com/watch?v=cEOUoa2DAfQ
+
+
+//order structure
+-- QUOTE RECEIVED
+orders.blade.php : New Order
+OrdersController : store
+use-beltech-ajaxsubmit-modal.js : $("#1").beltechAjaxsubmitModal ,externaljs
+beltech-ajaxsubmit-modal.js : externaljs
+
+
+
+
+
+
+//https://laravel.com/docs/5.6
+
+//Laravel 5.6 and React JS - Installation
+https://www.youtube.com/watch?v=nrC1W41BSA8
+
+
+
+
+//
+
+Now Hiring: Wordpress Developer.
+
+We are seeking a WordPress Developer responsible for both back-end and front-end development, including creating WordPress themes and plugins. This position requires a combination of programming skills (namely PHP, HTML5, CSS3, and JavaScript) and aesthetics (understanding element arrangements on the screen, the color and font choices, and so on). The candidate should have a strong understanding of industry trends and content management systems. Experience with the responsive and adaptive design is strongly preferred. Also, an understanding of the entire web development process, including design, development, and deployment is preferred.
+
+Responsibilities:
+- Designing and implementing new features and functionality.
+- Establishing and guiding the website’s architecture.
+- Ensuring high-performance and availability, and managing all technical aspects of the CMS.
+- Helping formulate an effective, responsive design and turning it into a working theme and plugin.
+
+Skills and Qualifications:
+- Good understanding of front-end technologies, including HTML5, CSS3, JavaScript, jQuery.
+- Experience building user interfaces for websites and/or web applications.
+- Experience designing and developing responsive design websites.
+- Comfortable working with debugging tools like Firebug, Chrome inspector, etc.
+- Ability to understand CSS changes and their ramifications to ensure consistent style across platforms and browsers.
+- Ability to convert comprehensive layout and wireframes into working HTML pages.
+- Knowledge of how to interact with RESTful APIs and formats (JSON, XML).
+- Proficient understanding of code versioning tools {{such as Git, SVN, and Mercurial}}
+- Strong understanding of PHP back-end development.
+
+If interested, kindly email your resume at careers@bigoutsource.com. Thank you :)
+
+
+//location
+
+Lot 1 & 2, Block 4, Guevarra Subdivision, Brgy. Del Remedio
+San Pablo City
+
+Brgy del remedio, wawa.  Near cocoland
+
++6349 521 1218
+
+look for Ramon Lorico
+
+
+//regular expression tester
+https://regex101.com/
+https://www.regexpal.com/
+
+
+//regular expression tuts
+^[a-z0-9\/]+$
+
+^ : assert position at start of the string.
+[] : match single character present in the set.
+a-z : single character in the range between a and z
+0-9 : single character in the range between 0 and 9
+\/ : matches the character / literally
++ : matches between 1 and unlimited times, as many times as possible giving back as neededed (greedy) sample you type more letter aaaa it reads valid but if you'll used ^[a-z]$ w.o ( + Quantifier ) multiple aaa doesn't read only read the first a character.
+
+
+//How to upload files in Laravel ?
+http://www.justwebcode.com/2018/02/how-to-upload-files-in-laravel.html
+
+
+- money_format() :  function is a Linux based one; it will not work with Windows based servers. Ironically this may not show in error logs as well.]
+
+
+- 
+UPLOAD CONFIRMATION SUPPLIER DOC = Generate Client Confirmation
+GENERATE CONFIRMATION TO CLIENT DOC = Upload Delivery Document  file && delivery note
+
+- bootstrap 4 Spacing such as padding, margin:
+  https://getbootstrap.com/docs/4.0/utilities/spacing/

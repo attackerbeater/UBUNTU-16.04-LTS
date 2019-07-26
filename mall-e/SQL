@@ -1,0 +1,15 @@
+-- getting Event with image 
+
+SELECT COUNT(a.event_id), a.event_id, b.event_image
+FROM events_master AS a
+LEFT JOIN event_image AS b
+ON a.event_id = b.event_id
+
+JOIN mall_master as c
+ON a.mall_id = c.mall_id
+JOIN country_master as d
+ON c.country_id = d.country_id
+
+WHERE c.country_id = 1
+GROUP BY a.event_name
+ORDER BY a.event_id

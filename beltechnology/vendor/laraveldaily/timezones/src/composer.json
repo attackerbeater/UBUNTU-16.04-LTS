@@ -1,0 +1,12 @@
+{
+    "name": "laraveldaily/timezones",
+    "description": "Demo-package to show time",
+    "authors": [
+        {
+            "name": "john",
+            "email": "junsayjohn4@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

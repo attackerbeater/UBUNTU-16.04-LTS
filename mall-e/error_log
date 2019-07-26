@@ -1,0 +1,18 @@
+[02-Aug-2018 05:22:33 UTC] PHP Fatal error:  Call to undefined function mssql_connect() in /home/malle/public_html/system/database/drivers/mssql/mssql_driver.php on line 113
+[02-Aug-2018 05:31:00 UTC] PHP Fatal error:  Call to undefined function mssql_connect() in /home/malle/public_html/system/database/drivers/mssql/mssql_driver.php on line 113
+[02-Aug-2018 05:37:15 UTC] PHP Fatal error:  Call to undefined function mssql_connect() in /home/malle/public_html/system/database/drivers/mssql/mssql_driver.php on line 113
+[02-Aug-2018 05:38:00 UTC] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/malle/public_html/system/database/drivers/sqlsrv/sqlsrv_driver.php on line 144
+[02-Aug-2018 05:58:22 UTC] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/malle/public_html/system/database/drivers/sqlsrv/sqlsrv_driver.php on line 144
+[02-Aug-2018 06:04:27 UTC] PHP Fatal error:  Call to undefined function mssql_connect() in /home/malle/public_html/system/database/drivers/mssql/mssql_driver.php on line 113
+[02-Aug-2018 06:04:28 UTC] PHP Fatal error:  Call to undefined function mssql_connect() in /home/malle/public_html/system/database/drivers/mssql/mssql_driver.php on line 113
+[02-Aug-2018 06:09:46 UTC] PHP Fatal error:  Call to undefined function mssql_connect() in /home/malle/public_html/system/database/drivers/mssql/mssql_driver.php on line 113
+[02-Aug-2018 06:10:34 UTC] PHP Fatal error:  Call to undefined function odbc_connect() in /home/malle/public_html/system/database/drivers/odbc/odbc_driver.php on line 141
+[02-Aug-2018 06:10:50 UTC] PHP Fatal error:  Call to undefined function odbc_connect() in /home/malle/public_html/system/database/drivers/odbc/odbc_driver.php on line 141
+[02-Aug-2018 06:11:00 UTC] PHP Fatal error:  Call to undefined function odbc_connect() in /home/malle/public_html/system/database/drivers/odbc/odbc_driver.php on line 141
+[02-Aug-2018 06:11:16 UTC] PHP Fatal error:  Call to undefined function odbc_connect() in /home/malle/public_html/system/database/drivers/odbc/odbc_driver.php on line 141
+[10-Aug-2018 18:45:46 UTC] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/malle/public_html/application/views/home_view.php on line 231
+[13-Oct-2018 03:52:13 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/malle/public_html/application/models/Home_model.php on line 19
+[18-Oct-2018 15:00:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malle/public_html/application/views/merchant_view_revise.php on line 826
+[18-Oct-2018 15:03:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malle/public_html/application/views/merchant_view_revise.php on line 704
+[30-Oct-2018 06:44:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/malle/public_html/application/views/merchant_view_revise.php on line 651
+[22-Jun-2019 12:50:01 UTC] PHP Fatal error:  Cannot use [] for reading in /home/malle/public_html/application/views/home_view.php on line 593

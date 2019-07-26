@@ -1,0 +1,13 @@
+html,
+body {
+  /* background-color: green;  */
+}
+ul#menu-top li,
+ul#menu-footer li,
+ul#menu-social li {
+	/* background-color:#fff;
+	margin-top:5px;
+  margin-right: 10px;
+  float: left;
+  list-style: none; */
+}

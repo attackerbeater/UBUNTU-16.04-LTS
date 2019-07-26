@@ -1,0 +1,96 @@
+/* Begin foundation design */
+
+/* .header-logo {
+    background: url('https://www.vans.com/wcsstore/vans-storefront/images/common/vans-logo.svg') 0 center no-repeat;
+    background-size: 100%;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 6.5px;
+    position: static;
+    width: 77px;
+}
+
+
+.top-bar {
+    background: none;
+} */
+
+
+/*  Top Bar */
+.top-bar {
+  border-bottom: 1px solid #000;
+}
+.top-bar, .top-bar ul {
+  background-color: #fff;
+}
+.top-bar li a {
+    background: transparent;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    height: 64px;
+    line-height: 64px;
+    margin-top: 0px;
+    padding: 0 0 0 20px;
+}
+
+.top-bar .title-area .name, .master-header .top-bar-acord .title-area .name {
+  height: 95px;
+}
+.header-logo {
+  background: url(https://www.vans.com/etc/designs/vfcorp/vans/clientlibs/global/images/common/vans-logo.svg) 0 center no-repeat;
+  background-size: 100%;
+  height: 46px;
+  margin-left: 10px;
+  margin-top: 6.5px;
+  position: static;
+  width: 77px;
+}
+li.name {
+  /* padding-right: 197px; */
+}
+
+.dropdown.menu > li > a {
+  padding: 0.1rem 1rem;
+}
+.lower {
+      top: 20px;
+}
+@media print, screen and (min-width: 40em){
+  .header-logo {
+    height: 95px;
+    margin-left: 10px;
+    margin-top: 0;
+    width: 131px;
+  }
+  .top-bar .lower> li:before {
+    color: #ccc;
+    content: '/';
+    display: block;
+    float: left;
+    height: 64px;
+    line-height: 64px;
+    margin-top: 0px;
+    text-align: center;
+    /* width: 20px; */
+  }
+  .top-bar .lower>li>a {
+      background: transparent;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      height: 64px;
+      line-height: 64px;
+      margin-top: 0px;
+      padding: 0 0 0 20px;
+  }
+    .top-bar .lower>li>a {
+    font-family: franklin-gothic-urw-cond,Arial Narrow Bold,Arial,sans-serif;
+    font-size: .875em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after{
+  }
+
+}

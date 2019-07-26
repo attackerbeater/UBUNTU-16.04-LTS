@@ -1,0 +1,6 @@
+[19-Oct-2018 09:29:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/malle/public_html/admin/application/views/edit_merchant_view.php on line 1100
+[20-Mar-2019 16:55:01 UTC] PHP Fatal error:  Cannot redeclare CategoryModel::deleteImgDealCategory() in /home/malle/public_html/admin/application/models/CategoryModel.php on line 83
+[20-Mar-2019 18:17:51 UTC] PHP Fatal error:  Cannot redeclare MerchantModel::saveMerchantPromo() in /home/malle/public_html/admin/application/models/MerchantModel.php on line 779
+[20-Mar-2019 18:18:10 UTC] PHP Fatal error:  Cannot redeclare MerchantModel::saveMerchantPromo() in /home/malle/public_html/admin/application/models/MerchantModel.php on line 779
+[20-Mar-2019 18:19:01 UTC] PHP Fatal error:  Cannot redeclare MerchantModel::getMerchantPromo() in /home/malle/public_html/admin/application/models/MerchantModel.php on line 792
+[10-Apr-2019 01:33:57 UTC] PHP Fatal error:  Cannot redeclare DealModel::uploadDealImage() in /home/malle/public_html/admin/application/models/DealModel.php on line 275

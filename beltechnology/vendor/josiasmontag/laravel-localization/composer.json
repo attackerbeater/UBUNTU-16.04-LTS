@@ -1,0 +1,45 @@
+{
+    "name": "josiasmontag/laravel-localization",
+    "description": "Localization for Laravel framework",
+    "keywords": ["localization", "language", "laravel", "php"],
+    "homepage": "https://github.com/josiasmontag/laravel-localization",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josias Montag",
+            "email": "josias@montag.info"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6.0",
+        "laravel/framework": "~5.4.0|~5.5.0|~5.6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "^5.7|6.2|^7.0",
+        "orchestra/testbench": "~3.4.2|^3.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lunaweb\\Localization\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lunaweb\\Localization\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "phpunit": "vendor/phpunit/phpunit/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lunaweb\\Localization\\LocalizationServiceProvider"
+            ],
+            "aliases": {
+                "Localization": "Lunaweb\\Localization\\Facades\\Localization"
+            }
+        }
+    }
+}

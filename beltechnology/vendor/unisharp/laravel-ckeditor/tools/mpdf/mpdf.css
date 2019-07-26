@@ -1,0 +1,242 @@
+
+
+
+/* LISTS */
+
+/* 
+A default margin-top/bottom for lists is NOT set in config.php - (standard browsers give outermost list a top and bottom margin).
+[mPDF default CSS set in config.php only works on basic elements, cannot do selectors such as "ol ol"]
+Need to add the following to do this, but also prevent margins in nested lists as per default HTML in most browsers: 
+*/
+
+ul, ol { margin-top: 0.83em; margin-bottom: 0.83em; }
+ul ul, ul ol, ol ul, ol ol { margin-top: 0; margin-bottom: 0; }
+
+
+
+
+/* INDEXES */
+div.mpdf_index_main {
+	font-family: sans-serif;
+	line-height: normal;
+}
+div.mpdf_index_entry {
+	line-height: normal;
+	text-indent: -1.5em;
+}
+div.mpdf_index_letter {
+	font-family: sans-serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: normal;
+	text-transform: uppercase;
+	page-break-after: avoid; 
+	margin-top: 0.3em; 
+	margin-collapse: collapse;
+}
+a.mpdf_index_link { 
+	color: #000000; 
+	text-decoration: none; 
+}
+
+
+
+/* TABLE OF CONTENTS */
+div.mpdf_toc {
+	font-family: sans-serif;
+	line-height: normal;
+}
+a.mpdf_toc_a  {
+	text-decoration: none;
+	color: black;
+}
+div.mpdf_toc_level_0 {		/* Whole line level 0 */
+	line-height: 1.5;
+	margin-left: 0;
+	padding-right: 0em;	/* should match the outdent specified for ToC; 0 is default; suggested value 2em */
+}
+span.mpdf_toc_t_level_0 {	/* Title level 0 - may be inside <a> */
+	font-weight: bold;
+}
+span.mpdf_toc_p_level_0 {	/* Page no. level 0 - may be inside <a> */
+}
+div.mpdf_toc_level_1 {		/* Whole line level 1 */
+	margin-left: 2em;
+	text-indent: -2em;
+	padding-right: 0em;	/* should match the outdent specified for ToC; 0 is default; suggested value 2em */
+}
+span.mpdf_toc_t_level_1 {	/* Title level 1 */
+	font-style: italic;
+	font-weight: bold;
+}
+span.mpdf_toc_p_level_1  {	/* Page no. level 1 - may be inside <a> */
+}
+div.mpdf_toc_level_2 {		/* Whole line level 2 */
+	margin-left: 4em;
+	text-indent: -2em;
+	padding-right: 0em;	/* should match the outdent specified for ToC; 0 is default; suggested value 2em */
+}
+span.mpdf_toc_t_level_2 {	/* Title level 2 */
+}
+span.mpdf_toc_p_level_2 {	/* Page no. level 2 - may be inside <a> */
+}
+
+
+
+/* start custom */
+
+body
+{
+	/* Font */
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+	/*font-family: Corbel;*/
+	font-size: 12px;
+
+	/* Text color */
+	color: #333;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+
+	margin: 20px;
+}
+
+.cke_editable
+{
+	font-size: 13px;
+	line-height: 1.3
+
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 8px;
+	padding-right: 20px;
+	border-right-width: 5px;
+}
+
+a
+{
+	color: #0782C1;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+	padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+	font-style: italic;
+}s
+
+figure
+{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: inline-block;
+}
+
+figure > figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
+a > img {
+	padding: 1px;
+	margin: 1px;
+	border: none;
+	outline: 1px solid #0782C1;
+}
+
+table tr th {
+	border: 1px solid #000;
+	text-align: center;
+	padding: 5px;
+}
+
+table tr td {
+	padding: 3px 10px 3px 10px;
+}
+
+table#first-table tbody tr td{
+	border: 1px solid #000;
+}
+
+table#second-table tbody tr td{
+	border: 1px solid #000;
+}
+
+table tr td#subtotal, table tr td#percentage, table tr td#total {
+	text-align: right!important;
+}
+
+p {
+	/*line-height: 2em;*/
+}

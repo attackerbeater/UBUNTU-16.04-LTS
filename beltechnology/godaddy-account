@@ -1,0 +1,201 @@
+﻿
+
+username: ipljhaaodhin
+password: BPm-nVU-HAL-8x
+
+kUd-8Zt-qYF-VDQ
+BPm-nVU-HAL-8xG
+
+server: gowebphilippines
+
+//cpanel
+reginald@digital-bakery.net
+password: kUd-8Zt-qYF-VDQ
+
+//Godaddy IPADDRESS
+160.153.131.192
+
+//FTP
+host: 160.153.131.192
+username: ipljhaaodhin
+password: BPm-nVU-HAL-8x
+
+//cpanel
+http://gowebphilippines.xyz/cpanel
+https://n3plcpnl0121.prod.ams3.secureserver.net:2083/
+username: ipljhaaodhin
+password: BPm-nVU-HAL-8x
+
++63 927 602 5838
++63 915 839 8803
+
+
+//online email godaddy
+Mail Client Manual Settings
+If you do not see an auto-configuration script for your client in the list above, you can manually configure your mail client using the settings below:
+
+//Secure SSL/TLS Settings (Recommended)
+Username:	_mainaccount@gowebphilippines.xyz
+Password:	Use your cPanel password.
+Incoming Server:	n3plcpnl0121.prod.ams3.secureserver.net
+IMAP Port: 993
+POP3 Port: 995
+Outgoing Server:	n3plcpnl0121.prod.ams3.secureserver.net
+SMTP Port: 465
+IMAP, POP3, and SMTP require authentication.
+
+//Non-SSL Settings (NOT Recommended)
+Username:	_mainaccount@gowebphilippines.xyz
+Password:	Use your cPanel password.
+Incoming Server:	mail.gowebphilippines.xyz
+IMAP Port: 143
+POP3 Port: 110
+Outgoing Server:	mail.gowebphilippines.xyz
+SMTP Port: 25
+IMAP, POP3, and SMTP require authentication.
+
+
+// ####################### beltech@gowebphilippines.xyz ############### 
+Manual Settings
+If you do not see an auto-configuration script for your client in the list above, you can manually configure your mail client using the settings below:
+
+Secure SSL/TLS Settings
+(Recommended)
+Username:	beltech@gowebphilippines.xyz
+Password:	Use the email account’s password.
+Incoming Server:	n3plcpnl0121.prod.ams3.secureserver.net
+IMAP Port: 993
+POP3 Port: 995
+Outgoing Server:	n3plcpnl0121.prod.ams3.secureserver.net
+SMTP Port: 465
+Authentication is required for IMAP, POP3, and SMTP.
+ 
+Non-SSL Settings
+(NOT Recommended)
+Username:	beltech@gowebphilippines.xyz
+Password:	Use the email account’s password.
+Incoming Server:	mail.gowebphilippines.xyz
+IMAP Port: 143
+POP3 Port: 110
+Outgoing Server:	mail.gowebphilippines.xyz
+SMTP Port: 25
+Authentication is required for IMAP, POP3, and SMTP.
+
+
+// ####################### END beltech@gowebphilippines.xyz ############### 
+
+
+//cpanel hosting
+https://www.godaddy.com/community/cPanel-Hosting/Restricted-view-of-phpmyadmin-cannot-create-databases/td-p/80800
+
+//cPanel Hosting & Filezilla FTP - Connect, Upload, And Transfer Files | GoDaddy
+https://www.youtube.com/watch?v=th4_CjBwJ-k
+
+1. QUOTE RECEIVED: Request for quotation received from client (automatic)           | QUOTE REQUEST RECEIVED from Client: Request for quotation received from client (automatic)
+2. QUOTE REQUEST: Request for quotation from supplier(s) (can be multiple)   		| QUOTE REQUEST SENT to SUPPLIER: Request for quotation from supplier(s) (can be multiple)      | generate pdf
+3. QUOTE SUP RECEIVED (PARTIAL/FULL): Request(s) received from supplier(s)			| QUOTE SUPPLIER RECEIVED: Request(s) received from supplier(s)
+4. QUOTE SENT: Quotation sent to Client 											| QUOTE SENT to CLIENT: Quotation sent to client generate pdf 									| generate pdf
+5. QUOTE ACCEPTANCE - CONFIRMATION													| QUOTE ACCEPTANCE from CLIENT - CONFIRMATION
+6. SEND CONFIRMATION TO supplier 													| SEND CONFIRMATION TO SUPPLIER
+7. UPLOAD CONFIRMATION SUPPLIER DOC													| UPLOAD CONFIRMATION SUPPLIER DOC
+8. GENERATE CONFIRMATION TO CLIENT DOC (if accepted) GOODS RECEIVED: Goods to be treated received from Client | GENERATE CONFIRMATION TO CLIENT (if accepted) GOODS RECEIVED from CLIENT: Goods to be treated received from client
+9.  																				| GOODS SENT from SUPPLIER: Goods sent to supplier
+10. GOODS SENT SUP: Goods sent to supplier 											| GOOD RECEIVED from SUPPLIER: Goods received from supplier (Depending on Exclusivity)
+11. GOOD RECEIVED SUP: Goods received from supplier (Depending on Exclusivity)      | GOODS SENT to CLIENT: Goods sent to client (Depending on Exclusivity)
+12. GOODS SENT: Goods sent to client (Depending on Exclusivity)                     | INVOICE RECEIVED
+13. INVOICE RECEIVED 															    | INVOICE SENT
+14. INVOICE SENT 																	| INVOICE PAID
+15. INVOICE PAID
+
+
+
+
+
+// VALID status
+1.  QUOTE REQUEST RECEIVED from Client: Request for quotation received from client (automatic)   // updload
+2.  QUOTE REQUEST SENT to SUPPLIER: Request for quotation from supplier(s) (can be multiple)  // has email function  // generate
+3.  QUOTE SUPPLIER RECEIVED: Request(s) received from supplier(s) //uplaod
+4.  QUOTE SENT to CLIENT: Quotation sent to client  // generate
+5.  QUOTE ACCEPTANCE from CLIENT - CONFIRMATION
+6.  SEND CONFIRMATION TO SUPPLIER
+7.  UPLOAD CONFIRMATION SUPPLIER DOC
+8.  GENERATE CONFIRMATION TO CLIENT (if accepted) GOODS RECEIVED from CLIENT: Goods to be treated received from client
+9.  GOODS SENT from SUPPLIER: Goods sent to supplier // no controller yet
+10. GOOD RECEIVED from SUPPLIER: Goods received from supplier (Depending on Exclusivity) // no controller //confusing un process
+11. GOODS SENT to CLIENT: Goods sent to client (Depending on Exclusivity)	
+12. INVOICE RECEIVED
+13. INVOICE SENT
+14. INVOICE PAID
+
+4.QUOTE SENT to CLIENT
+
+
+created_quote_request_sent_to_supplier
+upload_quote_request_sent_to_supplier
+http://beltechnology.local:8080/storage/client/18682/18682-upload-Invoice%20(1).pdf
+
+
+//treatment
+title : has
+content: no
+status : ok
+
+title : has
+content: has
+status : ok
+
+title : no
+content: has
+status : ok
+
+title : no
+content: no
+status : error -> needs to hide
+
+
+// beltech bugs for no refresh.
+
+1. if no.1 status will updates then if you'll switch to no.2 status
+the form field is not updated.
+
+
+
+//5-18-2018
+// beltech status check bugs
+1. new order // ok
+1. updating status 1 //ok
+1. sending email with pdf to client is // ok
+
+2. uploading supplier feedback and also updates //ok
+3. updating and generating pdf for going to status 4 //ok 
+4. updateing and uploading.
+5.  don't update
+
+//phpmyadmin sql
+ALTER TABLE `orders` ALTER COLUMN `order_price` SET DEFAULT '00.0';
+datatypes for column price : DECIMAL(10, 2)
+
+//happy wife, happy life
+//Sino Ang Dapat Ang Humawak Ng Pera | Money Management Tips
+https://www.youtube.com/watch?v=JSJko6TkSM4
+
+//How to Grow your Money | Pano at San Palaguin ang Pera
+https://www.youtube.com/watch?v=w-__cTo_ep0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

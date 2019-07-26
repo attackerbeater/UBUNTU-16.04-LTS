@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4":{
+      "code\\": "app/code",
+      "lib\\": "lib"
+    }
+  },
+  "authors": [
+    {
+      "name": "John Manducdoc. Junsay",
+      "email": "attackerbeater@gmail.com",
+      "homepage": "https://github.com/attackerbeater",
+      "role": "PHP developer"
+    }
+  ],
+  "license": "MIT"
+}

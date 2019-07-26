@@ -1,0 +1,132 @@
+/*
+Theme Name: WP Rocket Theme
+Theme URI: https://www.johnperricruz.com
+Author: John Perri Cruz
+Description: Theme built for speed.
+Version: 1.32
+*/
+
+/**
+ * Bootstrap to Wordpress Tweaks
+ */
+
+.loading {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999999 !important;
+    background: #3d464d;
+    opacity: 0.99;
+}
+.loading img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    top: 50%;
+    margin: -20px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #fff!important;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+div#sidebar ul li{
+	list-style-type:none;
+}
+ul.dropdown-menu li.active.open .dropdown-menu {
+    top: 0px;
+    left: 100%;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    outline: 0;
+}
+div.wpcf7-validation-errors,div.wpcf7-spam-blocked {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 2px solid #f5c6cb;
+    margin: 0px;
+    padding: 10px;
+}
+div.wpcf7-validation-success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 2px solid #c3e6cb;
+    margin: 0px;
+    padding: 10px;
+}
+header.innerpage-header {
+    background: #f9f9f9;
+    margin-bottom: 30px;
+}
+/**
+ * Pagination
+ */ 
+ a.page-numbers,span.page-numbers{
+    position: relative;
+    float: left; 
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+span.page-numbers.current {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7; 
+    border-color: #337ab7; 
+}
+aside.widget ul {
+    list-style: none;
+    padding: 0px;
+}
+h3.widget-title {
+    font-size: 1.2rem;
+}
+aside.widget ul li a {
+    color: #323232;
+}
+div#secondary .search-form {
+    margin-bottom: 20px;
+}
+/**
+ * Archives
+ */
+.index-lists{
+    padding: 15px;
+}
+.index-lists h2 {
+    font-size: 1.3rem;
+}
+span.date-posted {
+    display: inline-block;
+    margin-bottom: 7px;
+    font-style: italic;
+    color: grey;
+    font-size: 12px;
+}
+
+/**
+ * Your customization Starts Here
+ */
+footer.footer {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-top: 100px;
+}
