@@ -1,0 +1,64 @@
+.products-crosssell .product-item-actions{
+  padding-top: 15px;
+}
+
+.checkout-cart-index{
+  .crosssell{
+    margin-top: 30px;
+
+    .products-crosssell{
+      .product-item{
+        max-width: 100%;
+      }
+      
+      .owl-controls{
+        .owl-next,
+        .owl-prev{
+          &:hover::before{
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+  .cart-summary{
+    border-top: 1px solid $table-border;
+    margin-top: 10px;
+    @media (min-width: $screen-sm-min) {
+      border-left: 1px solid $table-border;
+      border-top: none;
+      margin-top: 0;
+    }
+  }
+  .cart.actions.main{
+    margin: 10px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid $table-border;
+    @include clearfix;
+    > a,
+    > button{
+      @media (max-width: $screen-lg-min - 1) {
+        float: left;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .cart .product-item-name{
+    padding-left: 7px;
+  }
+  .items.methods,
+  .actions-toolbar{
+    @media (max-width: $screen-sm-min - 1) {
+      @include flex-direction(column);
+      @include align-items(flex-start);
+    }
+  }
+  .actions-toolbar > a{
+    @media (max-width: $screen-sm-min - 1) {
+      margin-bottom: 5px;
+      margin-right: 5px;
+      display: inline-block;
+      @include flex-basis(auto);
+    }
+  }
+}

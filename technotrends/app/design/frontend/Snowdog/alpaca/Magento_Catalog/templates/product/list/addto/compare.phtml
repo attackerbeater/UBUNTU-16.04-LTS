@@ -1,0 +1,11 @@
+<button
+    class="button button--icon"
+    title="<?= __('Add to Compare') ?>"
+    aria-label="<?= __('Add to Compare') ?>"
+    data-post='<?= $block->getCompareHelper()->getPostDataParams($block->getProduct()) ?>'
+    role="button"
+>
+    <svg class="button__icon">
+        <use xlink:href="<?= $block->getViewFileUrl('/images/icons-sprite.svg#compare') ?>"></use>
+    </svg>
+</button>

@@ -1,0 +1,16 @@
+<div class="input<?= ($block->isRequired()) ? ' required' : '' ?>">
+    <label class="input__label"
+           for="<?= $block->getFieldId('taxvat') ?>"
+    >
+           <?= __('Tax/VAT number') ?>
+    </label>
+    <input type="text"
+           id="<?= $block->getFieldId('taxvat') ?>"
+           name="<?= $block->getFieldName('taxvat') ?>"
+           value="<?= $block->escapeHtml($block->getTaxvat()) ?>"
+           title="<?= __('Tax/VAT number') ?>"
+           class="input__field <?= $this->helper('Magento\Customer\Helper\Address')->getAttributeValidationClass('taxvat') ?>"
+           <?= $block->getFieldParams() ?>
+           <?= ($block->isRequired()) ? ' data-validate="{required:true}"' : '' ?>
+    >
+</div>

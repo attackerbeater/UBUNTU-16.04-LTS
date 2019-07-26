@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610655" stop="1560853610658" version="1.4.0">
+  <name>Magento\Test\Annotation\ConfigFixtureTest</name>
+  <test-cases>
+    <test-case start="1560853610655" stop="1560853610657" status="passed">
+      <name>testGlobalConfig</name>
+    </test-case>
+    <test-case start="1560853610657" stop="1560853610657" status="passed">
+      <name>testCurrentStoreConfig</name>
+    </test-case>
+    <test-case start="1560853610657" stop="1560853610657" status="passed">
+      <name>testSpecificStoreConfig</name>
+    </test-case>
+    <test-case start="1560853610657" stop="1560853610657" status="passed">
+      <name>testInitStoreAfterOfScope</name>
+    </test-case>
+    <test-case start="1560853610657" stop="1560853610658" status="passed">
+      <name>testInitStoreAfter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

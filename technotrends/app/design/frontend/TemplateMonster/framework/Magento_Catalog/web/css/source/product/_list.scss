@@ -1,0 +1,67 @@
+
+//
+//  Generic Grid/List Item
+//  ---------------------------------------------
+
+.products .product-item{
+
+    //Image
+    .product-item-photo{}
+    .product-image-container{}
+    .product-image-photo{}
+
+    //Details
+    .product-item-details{}
+    .product-item-name{
+        display: block;
+    }
+    .product-item-link{}
+
+    //Reviews
+    .product-reviews-summary{}
+    .rating-summary{
+        display: inline-block;
+    }
+    .reviews-actions{
+        display: inline-block;
+        .view{
+            margin-right: $indent-small;
+        }
+    }
+
+    //Swatches
+
+    .swatch-attribute-options {
+        margin-top: 10px;
+    }
+
+    //Price
+    .price-box{}
+    .price-final_price{}
+    .old-price{
+        .price{
+            text-decoration: line-through;
+            font-size: 1rem;
+        }
+    }
+
+    .price-from{}
+    .price-label{}
+    .price-wrapper{}
+    .price{}
+
+    .price-to{}
+    .price-label{}
+    .price-wrapper{}
+    .price{}
+
+    //Actions
+    .product-item-actions{
+        margin-bottom: $indent-small;
+    }
+    .actions-primary{}
+    .actions-secondary{}
+    .tocart{}
+    .towishlist{}
+    .tocompare{}
+}

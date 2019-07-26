@@ -1,0 +1,117 @@
+
+//
+//  Grid
+//  ---------------------------------------------
+
+.products-grid{
+    
+    .product-items{
+        @include make-flex();
+        @include make-row();
+        @include flex-wrap(wrap);
+    }
+    .product-item{
+        @include make-col();
+        @include flex-basis(100%);
+        margin-bottom: $indent-base;
+    }
+    .product-item-info{}
+
+    //Image
+    .product-item-photo{}
+    .product-image-container{}
+    .product-image-photo{
+        text-align: center;
+        display: block;
+        margin-bottom: $indent-small;
+    }
+
+    //Details
+    .product-item-details{}
+    .product-item-name{}
+    .product-item-link{}
+
+    //Reviews
+    .product-reviews-summary{}
+    .rating-summary{}
+    .reviews-actions{
+        @include make-flex();
+        @include justify-content(space-between);
+        .action.add{
+            @include font-icon('\f0e5');
+            font-size: 0;
+            &:before{
+                font-size: $default-font-size;
+            }
+        }
+    }
+
+    //Price
+    .price-box{}
+    .price-final_price{}
+    .special-price{
+        display: block;
+    }
+    .old-price{
+        display: block;
+    }
+
+    .price-from{
+        margin-bottom: 0;
+    }
+    .price-label{}
+    .price-wrapper{}
+    .price{}
+
+    .price-to{
+        margin-bottom: 0;
+    }
+    .price-label{}
+    .price-wrapper{}
+    .price{}
+
+    //Actions
+    .product-item-actions{
+        .actions-primary{
+            margin-bottom: .25rem;
+        }
+    }
+    .actions-primary{}
+    .actions-secondary{}
+    .tocart{}
+    .towishlist{}
+    .tocompare{}
+}
+
+@media (min-width: $screen-xs-min){
+    .products-grid{
+        .product-items{
+        }
+        .product-item{
+            @include flex-basis(50%);
+            max-width: 50%;
+        }
+    }
+}
+
+@media (min-width: $screen-md-min){
+    .products-grid{
+        .product-items{
+        }
+        .product-item{
+            @include flex-basis(33.33%);
+        }
+    }
+}
+
+@media (min-width: $screen-lg-min) {
+    .product-item-actions{
+        @include make-flex();
+        margin: 0 -$indent-small/4;
+        >div{
+            margin: 0 $indent-small/4 $indent-small/4 ;
+        }
+    }
+}
+
+

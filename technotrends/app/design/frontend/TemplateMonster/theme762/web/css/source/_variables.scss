@@ -1,0 +1,32 @@
+
+@import '../../../../framework/web/css/source/_variables.scss';
+
+
+
+// Fonts
+$default-font-family: 'Ubuntu', sans-serif;
+$default-font-weight: 300;
+$default-font-size: 14px;
+$default-line-height: 1.5em;
+
+$secondary-font-family-1: 'Montserrat', sans-serif;
+$secondary-font-family-2: 'Arizonia', cursive;
+
+// Colors
+$default: #4e4e4e;
+
+$primary: #cda379;
+$secondary-1: #1b110d;
+$secondary-2: #343434;
+$secondary-3: #615149;
+$secondary-4: #6d503b;
+$contrast: $white;
+$products-bg: #f7f7f7;
+
+$grey: #999;
+
+$table-border: #dadada;
+
+$bg-light: #f0f0f0;
+
+$rd-navbar-default-color: $primary;

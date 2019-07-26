@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610841" stop="1560853610846" version="1.4.0">
+  <name>Magento\Test\Helper\MemoryTest</name>
+  <test-cases>
+    <test-case start="1560853610841" stop="1560853610842" status="passed">
+      <name>testGetRealMemoryUsageUnix</name>
+    </test-case>
+    <test-case start="1560853610842" stop="1560853610842" status="passed">
+      <name>testGetRealMemoryUsageWin</name>
+    </test-case>
+    <test-case start="1560853610842" stop="1560853610842" status="passed">
+      <name>testConvertToBytes with data set "B"</name>
+    </test-case>
+    <test-case start="1560853610842" stop="1560853610842" status="passed">
+      <name>testConvertToBytes with data set "KB"</name>
+    </test-case>
+    <test-case start="1560853610843" stop="1560853610843" status="passed">
+      <name>testConvertToBytes with data set "MB"</name>
+    </test-case>
+    <test-case start="1560853610843" stop="1560853610843" status="passed">
+      <name>testConvertToBytes with data set "GB"</name>
+    </test-case>
+    <test-case start="1560853610843" stop="1560853610843" status="passed">
+      <name>testConvertToBytes with data set "regular spaces"</name>
+    </test-case>
+    <test-case start="1560853610843" stop="1560853610843" status="passed">
+      <name>testConvertToBytes with data set "no-break spaces"</name>
+    </test-case>
+    <test-case start="1560853610843" stop="1560853610843" status="passed">
+      <name>testConvertToBytes with data set "tab"</name>
+    </test-case>
+    <test-case start="1560853610843" stop="1560853610843" status="passed">
+      <name>testConvertToBytes with data set "coma"</name>
+    </test-case>
+    <test-case start="1560853610843" stop="1560853610844" status="passed">
+      <name>testConvertToBytes with data set "dot"</name>
+    </test-case>
+    <test-case start="1560853610844" stop="1560853610844" status="passed">
+      <name>testConvertToBytesBadFormat with data set "more than one unit of measure"</name>
+    </test-case>
+    <test-case start="1560853610844" stop="1560853610844" status="passed">
+      <name>testConvertToBytesBadFormat with data set "unknown unit of measure"</name>
+    </test-case>
+    <test-case start="1560853610844" stop="1560853610844" status="passed">
+      <name>testConvertToBytesBadFormat with data set "non-integer value"</name>
+    </test-case>
+    <test-case start="1560853610844" stop="1560853610844" status="passed">
+      <name>testConvertToBytes64 with data set #0</name>
+    </test-case>
+    <test-case start="1560853610844" stop="1560853610844" status="passed">
+      <name>testConvertToBytes64 with data set #1</name>
+    </test-case>
+    <test-case start="1560853610845" stop="1560853610845" status="passed">
+      <name>testConvertToBytes64 with data set #2</name>
+    </test-case>
+    <test-case start="1560853610845" stop="1560853610845" status="passed">
+      <name>testConvertToBytesInvalidArgument</name>
+    </test-case>
+    <test-case start="1560853610845" stop="1560853610846" status="canceled">
+      <name>testConvertToBytesOutOfBounds</name>
+      <failure>
+        <message>A 32-bit system is required to perform this test.</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/integration/framework/tests/unit/testsuite/Magento/Test/Helper/MemoryTest.php(148): PHPUnit\Framework\Assert::markTestSkipped('A 32-bit system...')
+#1 [internal function]: Magento\Test\Helper\MemoryTest-&gt;testConvertToBytesOutOfBounds()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Helper\MemoryTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Helper\MemoryTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

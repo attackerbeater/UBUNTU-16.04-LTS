@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853632790" stop="1560853632813" version="1.4.0">
+  <name>Magento\Test\Integrity\App\Language\ConfigTest</name>
+  <test-cases>
+    <test-case start="1560853632790" stop="1560853632804" status="passed">
+      <name>testSchemaUsingInvalidXml</name>
+    </test-case>
+    <test-case start="1560853632804" stop="1560853632812" status="canceled">
+      <name>testXmlFiles</name>
+      <failure>
+        <message>No XML validation of files requested</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/static/framework/Magento/TestFramework/Integrity/AbstractConfig.php(15): PHPUnit\Framework\Assert::markTestSkipped('No XML validati...')
+#1 [internal function]: Magento\TestFramework\Integrity\AbstractConfig-&gt;testXmlFiles()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\App\Language\ConfigTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\App\Language\ConfigTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1560853632812" stop="1560853632813" status="passed">
+      <name>testSchemaUsingValidXml</name>
+    </test-case>
+    <test-case start="1560853632813" stop="1560853632813" status="canceled">
+      <name>testFileSchemaUsingPartialXml</name>
+      <failure>
+        <message>No Partial File</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/static/framework/Magento/TestFramework/Integrity/AbstractConfig.php(53): PHPUnit\Framework\Assert::markTestSkipped('No Partial File')
+#1 [internal function]: Magento\TestFramework\Integrity\AbstractConfig-&gt;testFileSchemaUsingPartialXml()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\App\Language\ConfigTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\App\Language\ConfigTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1560853632813" stop="1560853632813" status="canceled">
+      <name>testFileSchemaUsingInvalidXml</name>
+      <failure>
+        <message>No Partial File</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/static/framework/Magento/TestFramework/Integrity/AbstractConfig.php(67): PHPUnit\Framework\Assert::markTestSkipped('No Partial File')
+#1 [internal function]: Magento\TestFramework\Integrity\AbstractConfig-&gt;testFileSchemaUsingInvalidXml()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\App\Language\ConfigTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\App\Language\ConfigTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1560853632813" stop="1560853632813" status="canceled">
+      <name>testSchemaUsingPartialXml</name>
+      <failure>
+        <message>No Partial File</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/static/framework/Magento/TestFramework/Integrity/AbstractConfig.php(81): PHPUnit\Framework\Assert::markTestSkipped('No Partial File')
+#1 [internal function]: Magento\TestFramework\Integrity\AbstractConfig-&gt;testSchemaUsingPartialXml()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\App\Language\ConfigTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\App\Language\ConfigTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

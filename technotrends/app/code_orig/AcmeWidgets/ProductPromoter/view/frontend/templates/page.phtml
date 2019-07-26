@@ -1,0 +1,164 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+/** @var \AcmeWidgets\ProductPromoter\ViewModel\ProductPromoter $viewModel */
+$vm = $block->getData('viewModel'); ?>
+<div class="">
+   <a href="javascript:void(0)" class="as-button" id="add-productpromoter">Add Product Promoter</a>
+</div>
+<div class="">
+   <table id="productpromoter">
+      <thead>
+         <tr>
+            <th>Product Promoter Name</th>
+         </tr>
+      </thead>
+      <tbody>
+         <?php foreach ($vm->getItems() as $product): ?>
+         <tr>
+            <td><?= $product->getName(); ?></td>
+         </tr>
+         <?php endforeach; ?>
+      </tbody>
+   </table>
+</div>
+<div id="product-promoter-modal">
+   <div class="message-success success message" style="display:none;">
+      <div></div>
+   </div>
+   <div class="message-error error message" style="display:none;">
+      <div></div>
+   </div>
+   <form
+      class="col-xs-12"
+      action="<?=$block->getFormAction(); ?>"
+      id="form-validate"
+      method="post"
+      enctype="multipart/form-data"
+      data-hasrequired="<?=__('* Required Fields') ?>"
+      >
+      <div class="row">
+         <div class="section">
+            <div class="col-lg-8 col-md-7 col-xs-12  no-padding-tablet">
+               <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="name_field"><?=__('Name'); ?><span class="required-star">*</span></label>
+                     <input name="name" id="name_field" type="text" data-validate="{required:true, 'letters-only': true}"/>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="required_field"><?=__('This is a required field'); ?><span class="required-star">*</span></label>
+                     <input name="required_field" id="required_field" type="text" data-validate="{required:true}"/>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="validate-alphanum-with-spaces"><?=__('Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field'); ?><span class="required-star">*</span></label>
+                     <input name="validate-alphanum-with-spaces" id="validate-alphanum-with-spaces" type="text" data-validate="{required:true, 'validate-alphanum-with-spaces':true}"/>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="phoneUK"><?=__('Please specify a valid phone number'); ?><span class="required-star">*</span></label>
+                     <input name="phoneUK" id="validate-alphanum-with-spaces" type="text" data-validate="{required:true, phoneUK:true}"/>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="validate-email"><?=__('Please enter a valid email address (Ex: johndoe@domain.com)'); ?><span class="required-star">*</span></label>
+                     <input name="validate-email" id="validate-alphanum-with-spaces" type="text" data-validate="{required:true, 'validate-email':true}"/>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                     <label for="upload-files"><?=__('Upload File & Image'); ?><span class="required-star">*</span></label>
+                     <input type="file" name="upload_files" id="upload-files" title="Upload File & Image" data-validate="{required:true}">
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="clr25"></div>
+               <div class="col-xs-12 no-padding-tablet">
+                   <div class="col-lg-3 col-md-5 col-sm-6 col-xs-12 pull-left">
+                       <input type="submit" name="submit" value="<?=__('Submit') ?>" class="btn col-xs-12">
+                   </div>
+               </div> -->
+         </div>
+      </div>
+   </form>
+</div>
+<script>
+require([
+    'jquery',
+    'AcmeWidgets_ProductPromoter/js/jquery.dataTables.min',
+    'Magento_Ui/js/modal/modal',
+    'mage/mage'
+],
+function(
+    $,
+    $t,
+    modal
+) {
+
+    var dataForm = $('#form-validate');
+    dataForm.mage('validation', {});
+
+    var options = {
+        type: 'popup',
+        responsive: true,
+        innerScroll: true,
+        title: 'Add Product Promoter',
+        buttons: [{
+                text: $.mage.__('Save'),
+                class: 'primary action submit btn btn-primary',
+                click: function() {
+                    if (dataForm.validation('isValid')) {
+                        var formData = new FormData($('#form-validate').get(0));
+                        formData.append('upload_files_image', $('input[type=file]')[0].files[0]);
+                        $.ajax({
+                            url: '<?=$block->getFormAction(); ?>',
+                            data: formData,
+                            processData: false,
+                            contentType: false,
+                            showLoader: true,
+                            type: 'POST',
+                            success: function(response) {
+                                if (!response.errors) {
+                                    if (response.redirectUrl) {
+                                        location.href = response.redirectUrl;
+                                    }
+                                } else {
+                                    // $('#form-validate')[0].reset();
+                                    $('.message-error').show();
+                                    $('.message-error').find('div').text(response.message);
+                                    setTimeout(function() {
+                                        $('message-error').hide();
+                                    }, 5000);
+                                }
+                            }
+                        });
+                        return false;
+                    }
+                }
+            },
+            {
+                text: $.mage.__('Close'),
+                class: 'primary action submit btn btn-default',
+                click: function() {
+                    this.closeModal();
+                }
+            }
+        ],
+        // /**
+        // * Escape key press handler,
+        // * close modal window
+        // */
+        // escapeKey: function () {
+        //    if (this.options.isOpen && this.modal.find(document.activeElement).length ||
+        //        this.options.isOpen && this.modal[0] === document.activeElement) {
+        //        this.closeModal();
+        //    }
+        // }
+    };
+
+    // modal
+    var popup = modal(options, $('#product-promoter-modal'));
+    $("#add-productpromoter").on('click', function() {
+        $('#product-promoter-modal').modal('openModal');
+    });
+
+    // dataTables
+    $(document).ready(function() {
+        $('#productpromoter').DataTable();
+    });
+});
+</script>

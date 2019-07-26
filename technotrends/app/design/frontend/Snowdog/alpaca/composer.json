@@ -1,0 +1,17 @@
+{
+    "name": "snowdog/theme-frontend-alpaca",
+    "description": "Alpaca frontend theme for Magento 2",
+    "license": "MIT",
+    "type": "magento2-theme",
+    "require": {
+      "magento/framework": "*",
+      "snowdog/frontools": "^1.6",
+      "snowdog/module-alpaca-components": "~1.3.0",
+      "snowdog/module-menu": "^2.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

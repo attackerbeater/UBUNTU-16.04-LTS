@@ -1,0 +1,30 @@
+//
+//  Compare products block
+//  ---------------------------------------------
+
+.block-compare{
+    .product-items{
+        margin-bottom: $indent-small;
+    }
+    .product-item-name{
+        display: block;
+        padding-right: 2rem;
+    }
+    .product-item{
+        position: relative;
+        margin-bottom: $indent-small;
+    }
+    .action.delete{
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0 $button-padding-hor;
+    }
+    .actions-toolbar{
+        @include make-flex();
+        @include justify-content(space-between);
+        .primary{
+            @include order(2);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_ Sales:etc/sales.xsd">
+    <section name="quote">
+        <group name="totals">
+        	<!-- default -->
+            <item name="tax" instance="Magento\Tax\Model\Sales\Total\Quote\Tax" sort_order="450">
+                <renderer name="adminhtml" instance="Magento\Sales\Block\Adminhtml\Order\Create\Totals\Tax" />
+                <renderer name="frontend" instance="Magento\Tax\Block\Checkout\Tax" />
+            </item>
+            <!-- customize -->
+            <item name="fee" instance="AcmeWidgets\ProductPromoter\Model\Total\Fee" sort_order="150"/>
+        </group>
+    </section>
+</config>

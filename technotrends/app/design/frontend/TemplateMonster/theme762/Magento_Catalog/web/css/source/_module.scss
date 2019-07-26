@@ -1,0 +1,83 @@
+@import 'product/_list.scss';
+@import 'product/_toolbar.scss';
+@import 'product/_view.scss';
+@import 'product/compare/_list.scss';
+@import 'product/compare/_block.scss';
+@import 'product/list/_grid.scss';
+@import 'product/list/_list.scss';
+@import 'product/view/_fotorama.scss';
+@import 'product/view/block/_related.scss';
+@import 'product/view/block/_upsell.scss';
+@import 'product/view/type/_downloadable.scss';
+
+
+//
+//  Sidebar
+//  ---------------------------------------------
+
+.collapsible-block{
+    position: relative; 
+
+    .opener{
+        display: block;
+        @extend .heading-3;
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        &::before{
+            position: absolute;
+            left: 0;
+            top: 0;
+            @extend .medium;
+        }
+    }
+}
+
+
+
+//
+//  Icons
+//  ---------------------------------------------
+
+.towishlist,
+.tocompare{
+	position: relative;
+    span{
+        display: none;
+    }
+
+}
+
+.modes .mode-grid,
+.modes .mode-list,
+.sorter .sorter-action{
+    @include font-icon__base();
+    padding: 0 $indent-small/2
+}
+
+.towishlist{
+    @include font-icon('\f08a');
+}
+.tocompare{
+    @include font-icon('\f24e');
+}
+.product-social-links .mailto{
+    @include font-icon__icon('\f003');
+}
+.modes .mode-grid{
+    @include font-icon__icon('\f009');
+}
+.modes .mode-list{
+    @include font-icon__icon('\f00b');
+}
+
+.sorter-action{
+    &.sort-asc{
+        @include font-icon__icon('\f161');
+    }
+    &.sort-desc{
+        @include font-icon__icon('\f160');
+    }
+}

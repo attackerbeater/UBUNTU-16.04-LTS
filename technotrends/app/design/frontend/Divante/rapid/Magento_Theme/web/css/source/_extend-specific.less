@@ -1,0 +1,198 @@
+// /**
+// * @package Divante/rapid
+// * @author Kacper Chara <kchara@divante.pl>
+// * @copyright 2017 Divante Sp. z o.o.
+// * @license See LICENSE_DIVANTE.txt for license details.
+// */
+
+//
+//  Extend fallback
+//  _____________________________________________
+
+//  Divante extend fallback handling. Should be EMPTY.
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+	
+	//
+	//  Header
+	//  ---------------------------------------------
+
+	.page-header {
+		background: none;
+
+		&:before {
+			background-color: #ffffff;
+		}
+	
+		// 
+		// customize
+		//
+		.panel.wrapper {
+		    .panel.header {
+		        .header.panel.left{
+		            float:left;
+		        }
+		        .header.panel.right{
+		            float:right;
+		        }
+		    }
+		}
+
+		.header.container.main {
+		    box-sizing: border-box;
+		    margin-left: auto;
+		    margin-right: auto;
+		    max-width: 1170px;
+		    padding-left: 15px;
+		    padding-right: 15px;
+
+		    .header.container.left {
+		        float: left;
+		        margin-top: 10px;
+		    }
+
+		    .header.container.right {
+		        float: right;
+		        margin-top: 20px;
+		        //width: 70%;
+
+		        .sections.nav-sections {
+		            float: left;
+		        }
+
+		        .minicart-wrapper {
+		            float: right;
+		        }
+		    } 
+		}     
+	}
+
+	//
+    //  Footer
+    //  ---------------------------------------------
+
+    .page-footer {
+        background: #2e261d;
+    }
+}
+
+
+//
+//  Desktop (style-l.css) min 768px
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	
+	.header {
+	    &.panel {
+	        > .header.links {
+	        	padding-top: initial;
+	        	margin-left: -31px;
+
+	            > li {	            	
+
+	                a {
+	                    color: #555555;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	.page-header {
+		//background: blue;
+		.panel.wrapper {
+		    background-color: #f4f4f4;
+		    border-top: 5px solid #333;
+		    display: block;
+		    border-bottom: none;
+		    height: 43.9px;
+		}
+
+		&:before {
+			// background-color: red;
+		}
+		
+	}
+}
+
+// min 1024px
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__l) {
+    
+    .page-header {
+    	//background: yellow;
+    	&:before {
+    		// background-color: blue;
+    	}
+    }
+
+}
+
+
+//
+//  Mobile (style-m.css) max 640px
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+    .page-header {
+    	//background: grey !important;
+    	&:before {
+    		background-color: green;
+    	}
+    }
+
+    .nav-toggle {
+        position: absolute;
+    }
+
+}
+
+// max 768px
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+    .page-header {
+    	//background: orange !important;
+
+    	&:before {
+    		background-color: yellow;
+    	}
+
+    	.panel.wrapper {
+    		display: block !important;
+    		.panel.header {
+    		
+    		    .header.panel.right{
+    		        float:unset!important;
+    		    }
+    		}
+    		
+    	}
+
+    	.header.container.main {
+    		.header.container.left {
+    			margin-top: unset!important;
+    		}
+    	}
+    }
+
+    .logo {
+        // margin: 0 0 10px 40px!important;
+    }
+
+}
+
+//
+//  Tablets
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__l) {
+    .page-header {
+    	//background: pink !important;
+    	&:before {
+    		//background-color: orange;
+    	}
+    }
+}

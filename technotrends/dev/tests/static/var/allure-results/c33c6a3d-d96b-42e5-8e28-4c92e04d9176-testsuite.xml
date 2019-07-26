@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853696001" stop="1560853696087" version="1.4.0">
+  <name>Magento\Test\Integrity\Magento\Payment\Config\ReferentialTest</name>
+  <test-cases>
+    <test-case start="1560853696087" stop="1560853696087" status="passed">
+      <name>testGroupsExists</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

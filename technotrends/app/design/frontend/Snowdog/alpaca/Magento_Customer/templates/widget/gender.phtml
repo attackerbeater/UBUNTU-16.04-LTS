@@ -1,0 +1,26 @@
+<div class="input <?= $block->isRequired() ?'required' : '' ?>">
+    <label class="input__label"
+           for="<?= $block->getFieldId('gender') ?>"
+    >
+        <?= __('Gender') ?>
+    </label>
+    <?php $is_required = $block->isRequired(); ?>
+        <select id="<?= $block->getFieldId('gender') ?>"
+                name="<?= $block->getFieldName('gender') ?>"
+                title="<?= __('Gender') ?>"
+                class="select <?= ($is_required) ? ' validate-select': ''?>"
+                data-mage-init='{"select": {}}'
+                <?= $is_required ? 'data-validate="{required:true}"' : '' ?>
+                <?= $block->getFieldParams() ?>
+        >
+            <?php $options = $block->getGenderOptions(); ?>
+            <?php $value = $block->getGender(); ?>
+            <?php foreach ($options as $option): ?>
+                <option value="<?= $option->getValue() ?>"
+                        <?= $option->getValue() == $value ? 'selected="selected"' : '' ?>
+                >
+                    <?= __($option->getLabel()) ?>
+                </option>
+            <?php endforeach;?>
+        </select>
+</div>

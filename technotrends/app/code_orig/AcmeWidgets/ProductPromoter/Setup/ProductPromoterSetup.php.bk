@@ -1,0 +1,21 @@
+<?php 
+
+class ProductPromoterSetup extends EavSetup
+{
+
+	public function getDefaultEntities()
+    {
+    	// copy logic from CustomerSetup.php
+    	$entities = [
+    		'customer' => [
+    			'entity_type_id' => '',
+    			'entity_model' =>'' ,
+    			'attributes' => [
+    			
+    			]
+
+    		]	
+    	];
+    	 return $entities;
+    }
+}

@@ -1,0 +1,84 @@
+//
+// Grid system
+// --------------------------------------------------
+
+$column-count: 12;
+$column-width: 70px;
+$gutter-width: 30px;
+
+// $row-ws: $gutter-width * 2;
+$row-ws: 0;
+
+$container-xs: 300px;
+$container-sm: 720px + $gutter-width;
+$container-md: 940px + $gutter-width;
+$container-lg: $column-count*$column-width + $gutter-width*($column-count);
+
+// Layouts
+$layout-boxed-width: 1920px;
+
+// Resolutions
+$screen-xs-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+// Fonts
+$default-font-family: 'Open sans', sans-serif;
+$default-font-weight: 500;
+$default-font-size: 14px;
+$default-line-height: 28px;
+
+// Colors
+$white: #FFF;
+$black: #000;
+$red: #d73105;
+$default: #4e4e4e;
+
+$primary: #30a0dd;
+$secondary-1: #191919;
+$secondary-2: #333;
+$contrast: $white;
+
+$table-border: #dadada;
+
+$header-color: $contrast;
+$header-bg: #f0f0f0;
+
+$content-color: $default;
+$content-bg: #ffffff;
+
+$footer-color: $content-color;
+$footer-bg: $secondary-1;
+
+//Indents
+$indent-base: 2rem;
+$indent-large:  $indent-base * 2;
+$indent-small:  $indent-base / 2;
+
+//Links
+$link-regular:  $primary;
+$link-hover:    $secondary-1;
+$link-active:   $secondary-2;
+$link-alt:      $default;
+
+
+//
+//  Form Variables
+//  ---------------------------------------------
+
+//Inputs
+$input-height:          2.63rem;
+$input-padding-hor:     1rem;
+$input-padding-vert:    .38rem;
+
+$input-font-size:       $default-font-size;
+$input-line-height:     $default-line-height;
+
+$input-bg-color:        darken($white, 10%);
+
+//Buttons
+$button-padding-vert:   .38rem;
+$button-padding-hor:    1rem;
+
+$button-bg-color:       darken($white, 10%);

@@ -1,0 +1,26 @@
+.page-layout-checkout {
+    @import '../../Snowdog_Components/01-globals/variables/variables';
+    @import "mixins/media-queries";
+    @import 'vendor/magento-ui/lib';
+    @import 'variables';
+
+    .page-main {
+        @include lib-magento-reset();
+
+        // Blank blocks
+        @import 'blocks/extends';
+        @import 'blocks/layout';
+        @import 'blocks/tooltips';
+        @import 'blocks/loaders';
+        @import 'blocks/sections';
+        @import 'blocks/actions-toolbar';
+        @import 'blocks/popups';
+
+        // Theme partials
+        @import 'module/advanced-checkout';
+        @import 'main';
+    }
+
+    @import 'module/checkout';
+}
+

@@ -1,0 +1,61 @@
+//
+//  Wishlist block
+//  ---------------------------------------------
+
+.block-wishlist{
+    .product-item{
+        display: block;
+        margin-bottom: $indent-base;
+    }
+    .product-item-name{}
+    .product-item-details{
+        position: relative;
+        margin-top: $indent-small;
+    }
+    .product-item-actions{
+        margin-top: $indent-small;
+        @include justify-content(space-between);
+    }
+    .empty{
+        margin-top: $indent-small;
+    }
+}
+
+
+//
+//  Wishlist page
+//  ---------------------------------------------
+
+.form-wishlist-items{
+    .actions-toolbar{
+        @include justify-content(space-between);
+        >.primary{
+            @include order(2);
+            @include make-col();
+        }
+        >.secondary{
+            @include order(1);
+            @include make-col();
+        }
+    }
+}
+
+.products-grid.wishlist{
+    .box-tocart{
+        margin-bottom: $indent-small;
+        >.fieldset{}
+        .field.qty{
+            @include make-flex();
+            .label{
+                @include flex-basis(50%);
+            }
+        }
+    }
+    .product-item-actions{
+        display: block;
+        margin: 0;
+        .actions-primary{
+            margin: 0;
+        }
+    }
+}

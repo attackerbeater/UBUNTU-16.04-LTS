@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>
+    <add id="Acmewidgets_Setup::main_content" title="Setup" module="Acmewidgets_Setup" sortOrder="60" resource="Acmewidgets_Setup::content"/>
+    <add id="Acmewidgets_Setup::post" title="Post" module="Acmewidgets_Setup" sortOrder="1" parent="Acmewidgets_Setup::main_content" action="acmewidgets_setup/post" resource="Acmewidgets_Setup::post"/>
+  </menu>
+</config>

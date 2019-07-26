@@ -1,0 +1,111 @@
+<?php $_item = $block->getItem() ?>
+
+<tr id="order-item-row-<?= $_item->getId() ?>">
+    <td class="name" data-th="<?= $block->escapeHtml(__('Product Name')); ?>">
+        <strong>
+            <?= $block->escapeHtml($_item->getName()) ?>
+        </strong>
+
+        <?php if ($_options = $block->getItemOptions()): ?>
+            <ul class="list">
+                <?php foreach ($_options as $_option) : ?>
+                    <li class="list__item">
+                        <?= $block->escapeHtml($_option['label']).': ' ?>
+
+                        <?php if (!$block->getPrintStatus()): ?>
+                            <?php $_formatedOptionValue = $block->getFormatedOptionValue($_option) ?>
+
+                            <?= $_formatedOptionValue['value'].': ' ?>
+
+                            <?php if (isset($_formatedOptionValue['full_view'])): ?>
+                                <strong>
+                                    <?= $block->escapeHtml($_option['label']).' ' ?>
+
+                                    <?= $_formatedOptionValue['full_view'] ?>
+                                </strong>
+                            <?php endif; ?>
+                        <?php else: ?>
+                            <strong>
+                                <?=
+                                    nl2br($block->escapeHtml((isset($_option['print_value']) ? $_option['print_value'] : $_option['value'])))
+                                ?>
+                            </strong>
+                        <?php endif; ?>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
+
+        <?php /* downloadable */ ?>
+        <?php if ($links = $block->getLinks()): ?>
+            <strong>
+                <?= $block->getLinksTitle() ?>
+            </strong>
+
+            <ul class="list">
+                <?php foreach ($links->getPurchasedItems() as $link): ?>
+                    <li class="list__item">
+                        <?= $block->escapeHtml($link->getLinkTitle()); ?>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
+        <?php /* EOF downloadable */ ?>
+
+        <?php $addtInfoBlock = $block->getProductAdditionalInformationBlock(); ?>
+
+        <?php if ($addtInfoBlock) :?>
+            <?= $addtInfoBlock->setItem($_item)->toHtml(); ?>
+        <?php endif; ?>
+
+        <?= $block->escapeHtml($_item->getDescription()) ?>
+    </td>
+
+    <td class="sku" data-th="<?= $block->escapeHtml(__('SKU')); ?>">
+        <?= $block->prepareSku($block->getSku()) ?>
+    </td>
+
+    <td class="price" data-th="<?= $block->escapeHtml(__('Price')); ?>">
+        <?= $block->getItemPriceHtml(); ?>
+    </td>
+
+    <td class="qty" data-th="<?= $block->escapeHtml(__('Qty')); ?>">
+        <ul class="list">
+            <?php if ($block->getItem()->getQtyOrdered() > 0): ?>
+                <li class="list__item">
+                    <?= __('Ordered: '); ?>
+
+                    <?= $block->getItem()->getQtyOrdered()*1 ?>
+                </li>
+            <?php endif; ?>
+
+            <?php if ($block->getItem()->getQtyShipped() > 0): ?>
+                <li class="list__item">
+                    <?= __('Shipped: '); ?>
+
+                    <?= $block->getItem()->getQtyShipped() * 1 ?>
+                </li>
+            <?php endif; ?>
+
+            <?php if ($block->getItem()->getQtyCanceled() > 0): ?>
+                <li class="list__item">
+                    <?= __('Canceled: '); ?>
+
+                    <?= $block->getItem()->getQtyCanceled()*1 ?>
+                </li>
+            <?php endif; ?>
+
+            <?php if ($block->getItem()->getQtyRefunded() > 0): ?>
+                <li class="list__item">
+                    <?= __('Refunded: '); ?>
+
+                    <?= $block->getItem()->getQtyRefunded()*1 ?>
+                </li>
+            <?php endif; ?>
+        </ul>
+    </td>
+
+    <td class="subtotal" data-th="<?= $block->escapeHtml(__('Subtotal')); ?>">
+        <?= $block->getItemRowTotalHtml(); ?>
+    </td>
+</tr>

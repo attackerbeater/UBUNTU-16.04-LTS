@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="acmewidgets_ajax" frontName="acmewidgets_ajax">
+            <module name="AcmeWidgets_Ajax" />
+        </route>
+    </router>
+</config>

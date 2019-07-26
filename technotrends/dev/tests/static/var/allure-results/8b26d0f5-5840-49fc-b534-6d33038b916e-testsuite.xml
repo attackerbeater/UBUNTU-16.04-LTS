@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853696093" stop="1560853696102" version="1.4.0">
+  <name>Magento\Test\Integrity\Magento\Payment\Model\ConfigTest</name>
+  <test-cases>
+    <test-case start="1560853696093" stop="1560853696094" status="passed">
+      <name>testSchemaUsingInvalidXml</name>
+    </test-case>
+    <test-case start="1560853696094" stop="1560853696095" status="passed">
+      <name>testFileSchemaUsingInvalidXml</name>
+    </test-case>
+    <test-case start="1560853696095" stop="1560853696096" status="passed">
+      <name>testSchemaUsingPartialXml</name>
+    </test-case>
+    <test-case start="1560853696096" stop="1560853696101" status="passed">
+      <name>testXmlFiles</name>
+    </test-case>
+    <test-case start="1560853696101" stop="1560853696102" status="passed">
+      <name>testSchemaUsingValidXml</name>
+    </test-case>
+    <test-case start="1560853696102" stop="1560853696102" status="passed">
+      <name>testFileSchemaUsingPartialXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

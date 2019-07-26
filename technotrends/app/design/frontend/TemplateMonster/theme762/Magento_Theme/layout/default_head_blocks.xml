@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="//fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,500,600,700,900" src_type="url" />
+        <css src="//fonts.googleapis.com/css?family=Montserrat:400,700" src_type="url" />
+        <css src="//fonts.googleapis.com/css?family=Arizonia" src_type="url" />
+        <css src="css/material-icons.css" />
+        <css src="css/material-design.css" />
+        <css src="css/camera.css" />
+        <css src="css/theme-styles.css" />
+    </head>
+</page>

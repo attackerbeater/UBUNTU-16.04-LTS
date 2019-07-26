@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853686065" stop="1560853686139" version="1.4.0">
+  <name>Magento\Test\Integrity\Layout\TemplatesTest</name>
+  <test-cases>
+    <test-case start="1560853686138" stop="1560853686139" status="failed">
+      <name>testTemplateFollowsCanonicalName</name>
+      <failure>
+        <message>Failed to assert that the template reference follows the canonical format Vendor_Module::path/to/template.phtml. Following files haven't pass verification:
+/var/www/html/technotrends/app/design/frontend/TemplateMonster/framework/Magento_Theme/layout/default.xml:
+- html/notices.phtml
+- switch/languages_mobile.phtml
+- currency_mobile.phtml
+/var/www/html/technotrends/app/design/frontend/TemplateMonster/framework/Magento_Bundle/layout/catalog_product_view_type_bundle.xml:
+- product/view/addtocart.phtml
+- product/view/addto.phtml
+- catalog/product/view/type/bundle/options.phtml
+- qtyincrements.phtml
+- catalog/product/view/type/bundle.phtml
+/var/www/html/technotrends/app/design/frontend/TemplateMonster/framework/Magento_Downloadable/layout/catalog_product_view_type_downloadable.xml:
+- catalog/product/samples.phtml
+- catalog/product/type.phtml
+- stockqty/default.phtml
+- catalog/product/links.phtml
+/var/www/html/technotrends/app/design/frontend/Divante/rapid/Magento_Customer/layout/customer_account_login.xml:
+- Magento_Customer::/advantages-with-account.phtml
+/var/www/html/technotrends/app/design/frontend/Divante/rapid/Magento_Customer/layout/customer_account_create.xml:
+- Magento_Customer::/advantages-with-account.phtml
+/var/www/html/technotrends/app/design/frontend/Webgriffe/bootstrap/Magento_Theme/layout/default.xml:
+- html/topmenu.phtml
+/var/www/html/technotrends/app/design/frontend/Webgriffe/bootstrap/Magento_Customer/layout/customer_account_login.xml:
+- form/login.phtml
+- newcustomer.phtml
+/var/www/html/technotrends/app/design/frontend/Webgriffe/bootstrap/Magento_Customer/layout/customer_account_create.xml:
+- form/register.phtml
+</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/TemplatesTest.php(77): PHPUnit\Framework\Assert::fail('Failed to asser...')
+#1 [internal function]: Magento\Test\Integrity\Layout\TemplatesTest-&gt;testTemplateFollowsCanonicalName()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\Layout\TemplatesTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\Layout\TemplatesTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

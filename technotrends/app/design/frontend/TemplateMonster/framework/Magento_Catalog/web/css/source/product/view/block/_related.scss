@@ -1,0 +1,43 @@
+//
+//  Related product
+//  ---------------------------------------------
+
+.block.related{
+    @include order(5);
+    @include make-col();
+    @include flex-basis(100%);
+    overflow: hidden;
+
+    .block-title{}
+    .block-content{}
+
+    .block-actions{}
+    .action.select{}
+    .products-related{}
+
+    //Product
+    .product-item-info{
+        &.related-available{}
+    }
+    .field.related{}
+    .checkbox.related{}
+}
+
+.products-grid.products-related{
+    margin: 2rem 0 0;
+    padding: 0;
+
+    .product-items{
+        margin: 0 -15px;
+        padding: 0;
+    }
+    .product-item{
+        @include flex-basis(100%);
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .owl-item{
+         padding: 0 15px;
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610294" stop="1560853610298" version="1.4.0">
+  <name>Magento\TestFramework\Dependency\VirtualType\VirtualTypeMapperTest</name>
+  <test-cases>
+    <test-case start="1560853610294" stop="1560853610295" status="passed">
+      <name>testGetScopeFromFile</name>
+    </test-case>
+    <test-case start="1560853610296" stop="1560853610296" status="passed">
+      <name>testGetType with data set #0</name>
+    </test-case>
+    <test-case start="1560853610296" stop="1560853610296" status="passed">
+      <name>testGetType with data set #1</name>
+    </test-case>
+    <test-case start="1560853610296" stop="1560853610296" status="passed">
+      <name>testGetType with data set #2</name>
+    </test-case>
+    <test-case start="1560853610296" stop="1560853610296" status="passed">
+      <name>testGetType with data set #3</name>
+    </test-case>
+    <test-case start="1560853610296" stop="1560853610296" status="passed">
+      <name>testGetType with data set #4</name>
+    </test-case>
+    <test-case start="1560853610296" stop="1560853610297" status="passed">
+      <name>testLoad with data set #0</name>
+    </test-case>
+    <test-case start="1560853610297" stop="1560853610298" status="passed">
+      <name>testLoad with data set #1</name>
+    </test-case>
+    <test-case start="1560853610298" stop="1560853610298" status="passed">
+      <name>testGetTypeComplex with data set #0</name>
+    </test-case>
+    <test-case start="1560853610298" stop="1560853610298" status="passed">
+      <name>testGetTypeComplex with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

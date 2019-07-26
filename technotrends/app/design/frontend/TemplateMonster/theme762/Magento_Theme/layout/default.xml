@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+
+        <!-- Header. Side-Navbar -->
+        <referenceContainer name="page.wrapper">
+            <container name="side.navbar.container" as="side_navbar_container" label="Side Navigation Container"
+                       htmlTag="div" htmlClass="side-navbar" before="-">
+                <container name="side.navbar.search" as="side_navbar_search" label="Side Navigation Search"
+                           htmlTag="div" htmlClass="side-navbar-box side-navbar-search" after="minicart">
+                    <block class="Magento\Framework\View\Element\Template" name="side.navbar.btn.search"
+                           template="Magento_Theme::html/side-navbar-btn--search.phtml" before="-"/>
+                    <container name="side.navbar.popup.search" as="side_navbar_popup" label="Side Navigation Popup"
+                               htmlTag="div" htmlClass="side-navbar-popup" after="side.navbar.btn.search">
+                        <block class="Magento\Framework\View\Element\Template" name="side.navbar.close.search"
+                               template="Magento_Theme::html/side-navbar-close.phtml" before="-"/>
+                    </container>
+                </container>
+                <container name="side.navbar.menu" as="side_navbar_menu" label="Side Navigation Menu" htmlTag="div"
+                           htmlClass="side-navbar-box side-navbar-menu" after="side.navbar.search">
+                    <block class="Magento\Framework\View\Element\Template" name="side.navbar.btn.menu"
+                           template="Magento_Theme::html/side-navbar-btn--menu.phtml" before="-"/>
+                    <container name="side.navbar.popup.menu" as="side_navbar_popup" label="Side Navigation Popup"
+                               htmlTag="div" htmlClass="side-navbar-popup" after="side.navbar.btn.menu">
+                        <block class="Magento\Framework\View\Element\Template" name="side.navbar.close.menu"
+                               template="Magento_Theme::html/side-navbar-close.phtml" before="-"/>
+                    </container>
+                </container>
+                <container name="side.navbar.login" as="side_navbar_login" label="Side Navigation Login" htmlTag="div"
+                           htmlClass="side-navbar-box side-navbar-login" after="side.navbar.menu">
+                    <block class="Magento\Framework\View\Element\Template" name="side.navbar.btn.login"
+                           template="Magento_Theme::html/side-navbar-btn--login.phtml" before="-"/>
+                    <container name="side.navbar.popup.login" as="side_navbar_popup" label="Side Navigation Popup"
+                               htmlTag="div" htmlClass="side-navbar-popup" after="side.navbar.btn.login">
+                        <block class="Magento\Framework\View\Element\Template" name="side.navbar.close.login"
+                               template="Magento_Theme::html/side-navbar-close.phtml" before="-"/>
+                    </container>
+                </container>
+                <container name="side.navbar.options" as="side_navbar_options" label="Side Navigation Options"
+                           htmlTag="div" htmlClass="side-navbar-box side-navbar-options" after="side.navbar.login">
+                    <block class="Magento\Framework\View\Element\Template" name="side.navbar.btn.options"
+                           template="Magento_Theme::html/side-navbar-btn--options.phtml" before="-"/>
+                    <container name="side.navbar.popup.options" as="side_navbar_popup" label="Side Navigation Popup"
+                               htmlTag="div" htmlClass="side-navbar-popup" after="side.navbar.btn.options">
+                        <block class="Magento\Framework\View\Element\Template" name="side.navbar.close.options"
+                               template="Magento_Theme::html/side-navbar-close.phtml" before="-"/>
+                    </container>
+                </container>
+            </container>
+        </referenceContainer>
+
+        
+        <move element="authorization-link" destination="side.navbar.login" before="-"/>
+
+        <referenceContainer name="side.navbar.popup.options">
+            <container name="header.switchers" htmlTag="div" htmlClass="header-switchers"
+                       after="side.navbar.close.options">
+                    </container>
+        </referenceContainer>
+
+        <referenceBlock name="top.links">
+            <referenceBlock name="my-account-link" before="-"/>
+            <referenceBlock name="customer-account-navigation-wish-list-link" after="my-account-link"/>
+            <block class="Magento\Framework\View\Element\Template" name="side.navbar.top.links.cart"
+                   template="Magento_Theme::html/side-navbar-cart-link.phtml"
+                   after="customer-account-navigation-wish-list-link"/>
+                <referenceBlock name="register-link" destination="top.links" remove="true"/>
+            <block class="Magento\Framework\View\Element\Html\Link\Current" name="track-order-link"
+                   after="side.navbar.top.links.cart">
+                <arguments>
+                    <argument name="label" xsi:type="string">Track My Order</argument>
+                    <argument name="path" xsi:type="string">#</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Framework\View\Element\Html\Link\Current" name="track-order-link"
+                   after="side.navbar.top.links.cart">
+                <arguments>
+                    <argument name="label" xsi:type="string">Help</argument>
+                    <argument name="path" xsi:type="string">#</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+        <move element="minicart" destination="side.navbar.container" before="-"/>
+        <move element="top.search" destination="side.navbar.popup.search" after="minicart"/>
+        <move element="top.links" destination="side.navbar.popup.menu" after="side.navbar.btn.menu"/>
+        <move element="store_language" destination="header.switchers" before="-"/>
+        <move element="currency" destination="header.switchers" after="store_language"/>
+
+        <referenceContainer name="header-wrapper">
+            <container name="header.switchers.device" htmlTag="div" htmlClass="header-switchers--device">
+            </container>
+        </referenceContainer>
+        <move element="store_language_mobile" destination="header.switchers.device" before="-"/>
+        <move element="currency_mobile" destination="header.switchers.device" after="store_language_mobile"/>
+
+        <!-- Header. Side-Navbar END -->
+
+        <!-- Logo -->
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.png</argument>
+                <argument name="logo_img_width" xsi:type="number">100</argument>
+                <argument name="logo_img_height" xsi:type="number">75</argument>
+            </arguments>
+        </referenceBlock>
+
+        <!-- Header Content -->
+        <referenceContainer name="header-wrapper" htmlClass="page-header__content"/>
+        <!-- Header Content END -->
+
+        <referenceContainer name="header-wrapper">
+            <container name="logo_container" htmlTag="div" htmlClass="logo-container" before="-">
+                <container name="logo_light_container" htmlTag="div" htmlClass="logo-light" before="-"/>
+                <container name="logo_dark_container" htmlTag="div" htmlClass="logo-dark" after="logo_light"/>
+            </container>
+        </referenceContainer>
+        <referenceContainer name="logo_dark_container">
+            <block class="Magento\Theme\Block\Html\Header\Logo" name="logo_dark">
+                <arguments>
+                    <argument name="css_class" xsi:type="string">logo_dark</argument>
+                    <argument name="logo_file" xsi:type="string">images/logo_dark.png</argument>
+                    <argument name="logo_img_width" xsi:type="number">100</argument>
+                    <argument name="logo_img_height" xsi:type="number">75</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+
+        <move element="logo" destination="logo_light_container"/>
+        <move element="header" destination="header-wrapper" after="logo"/>
+        <!-- Logo END -->
+
+        <!-- Main content-->
+
+        <move element="form.subscribe" destination="homepage.newsletter-2"/>
+
+        <!-- Main content END -->
+
+        <!-- Footer -->
+        <referenceContainer name="footer" htmlClass="page-footer__content">
+            <container name="footer.grid-container" htmlClass="container" htmlTag="div" before="-">
+                <container name="footer.grid-row" htmlClass="row" htmlId="footer-col-wrapper" htmlTag="div">
+                    <container name="footer.grid-col1" htmlClass="col-sm-3" htmlTag="div">
+                        <block type="cms/block" class="Magento\Cms\Block\Block" name="footer_col_1">
+                            <arguments>
+                                <argument name="block_id" xsi:type="string">footer_col_1</argument>
+                            </arguments>
+                        </block>
+                    </container>
+                    <container name="footer.grid-col2" htmlClass="col-sm-3" htmlTag="div">
+                        <block type="cms/block" class="Magento\Cms\Block\Block" name="footer_col_2" before="-">
+                            <arguments>
+                                <argument name="block_id" xsi:type="string">footer_col_2</argument>
+                            </arguments>
+                        </block>
+                    </container>
+                    <container name="footer.grid-col3" htmlClass="col-sm-3" htmlTag="div">
+                        <block type="cms/block" class="Magento\Cms\Block\Block" name="footer_col_3" before="-">
+                            <arguments>
+                                <argument name="block_id" xsi:type="string">footer_col_3</argument>
+                            </arguments>
+                        </block>
+                    </container>
+                    <container name="footer.grid-col4" htmlClass="col-sm-3" htmlTag="div">
+                        <block type="cms/block" class="Magento\Cms\Block\Block" name="footer_col_4" before="-">
+                            <arguments>
+                                <argument name="block_id" xsi:type="string">footer_col_4</argument>
+                            </arguments>
+                        </block>
+                    </container>
+                </container>
+            </container>
+        </referenceContainer>
+
+        <!-- Footer blocks -->
+        <referenceBlock name="footer.grid-col1">
+            <container name="footer-col-1-wrapper" htmlClass="footer-col" htmlTag="div">
+                <block class="Magento\Framework\View\Element\Template" name="footer_col_1_title" before="-" template="Magento_Theme::text.phtml">
+                    <arguments>
+                        <argument translate="true" name="text" xsi:type="string">Information</argument>
+                        <argument name="tag" xsi:type="string">h4</argument>
+                        <argument name="htmlClass" xsi:type="string">footer-col-content</argument>
+                    </arguments>
+                </block>
+                <container name="footer-col-1-content" htmlClass="footer-col-content" htmlTag="div" after="footer_col_1_title"/>
+            </container>
+        </referenceBlock>
+        <move element="footer_col_1" destination="footer-col-1-content" after="cms_footer_links_container"/>
+        <move element="footer_links" destination="footer-col-1-content"/>
+        <!-- Footer blocks END-->
+
+        <move element="copyright" destination="footer.grid-container"/>
+
+        <referenceBlock name="report.bugs" remove="true"/>
+        <!-- Footer END -->
+
+    </body>
+</page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610410" stop="1560853610415" version="1.4.0">
+  <name>Magento\TestFramework\Utility\XssOutputValidatorTest</name>
+  <test-cases>
+    <test-case start="1560853610410" stop="1560853610413" status="passed">
+      <name>testGetLinesWithXssSensitiveOutput with data set "xss_safe"</name>
+    </test-case>
+    <test-case start="1560853610413" stop="1560853610415" status="passed">
+      <name>testGetLinesWithXssSensitiveOutput with data set "xss_unsafe"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

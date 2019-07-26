@@ -1,0 +1,93 @@
+/*
+* @subsection   RD Navbar Search
+*
+* @description  Describes style declarations for RD Navbar search
+*/
+
+.rd-navbar-search,
+.rd-navbar-search-toggle{
+  display: none;
+}
+
+.rd-navbar-static{
+  .rd-navbar-search{
+    display: block;
+
+    .rd-navbar-search-form{
+      @include make-flex();
+    }
+    form{
+      position: relative;
+  
+      button[type="submit"]{
+        margin-left: 10px;
+        position: relative;
+      }
+    }
+  }
+}
+
+.rd-navbar-fixed{
+  .rd-navbar-search-toggle{
+    display: block;
+    position: fixed;
+    top: 4px;
+    right: 104px;
+    font-family: $fa;
+    width: 48px;
+    height: 48px;
+    @include toggle-icons-via-rotation(44px, 22px, $rd-navbar-contrast-color, '\f002', '\f00d');
+    z-index: 18;
+  }
+
+  .rd-navbar-search{
+    display: block;
+
+    .form-group{
+      position: fixed;
+      top: 0;
+      padding-top: 4px;
+      left: 56px;
+      right: 155px;
+      height: 56px;
+      z-index: 17;
+      @extend %rd-navbar-transition;
+      visibility: hidden;
+      opacity: 0;
+
+      input{
+        width: 100%;
+        height: 46px;
+        display: block;
+        background: $rd-navbar-contrast-color;
+        line-height: normal;
+      }
+    }
+
+    &.active{
+      .form-group{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    form{
+      button[type="submit"]{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        @include font-icon('\f002');
+        background: $rd-navbar-contrast-color;
+        padding: 0;
+        margin: -23px 0 0;
+        width: 46px;
+        height: 43px;
+        line-height: 45px;
+
+        span{
+          display: none;
+        }
+      }
+    }
+  }
+}

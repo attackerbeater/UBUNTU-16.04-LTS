@@ -1,0 +1,70 @@
+// @import '../../../../../framework/web/css/source/components/_forms.scss';
+
+input[type="text"], .input-text,
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea{
+    display: block;
+    width: 100%;
+    padding: $input-padding-vert $input-padding-hor;
+    font-size:$input-font-size;
+    line-height:$input-line-height;
+    background: transparent;
+    border: 1px solid #ecebeb;
+
+    &.mage-error{
+        border: solid 1px red;
+        color: inherit;
+    }
+}
+select:focus{
+    outline-color: $primary;
+}
+
+.catalogsearch-advanced-index select.multiselect{
+    height: auto;
+}
+
+.customer-account-login,
+.customer-account-create{
+    #remember-me-box{
+        .tooltip{
+            display: inline-block;
+            width: 100%;
+        }
+        .checkbox{
+            margin-top: 7px;
+        }
+    }
+}
+
+.modal-footer{
+    button+button{
+        margin: 0 4px;
+    }
+    button{
+        transition: .3s ease;
+        &:hover{
+            color: $primary;
+        }
+    }
+}
+
+//Block buttons
+.actions .action,
+.actions-toolbar .action,
+.box-actions .action,
+.product-item-actions .action,
+.checkout.methods .action{
+    background: $primary;
+    color: $white;
+    &:hover{
+        background: $secondary-1;
+    }
+}
+
+div[class*=" block-dashboard-"] .block-title{
+    border-bottom: 1px solid $secondary-2;
+}

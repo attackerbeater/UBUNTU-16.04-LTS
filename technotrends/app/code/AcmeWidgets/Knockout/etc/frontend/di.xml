@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+  <!--  Controller -->
+  <preference for="Magento\Checkout\Controller\Sidebar\UpdateItemQty" type="AcmeWidgets\Knockout\Controller\Sidebar\UpdateItemQty" />
+
+  <!-- Model -->
+  <preference for="Magento\Checkout\Model\Sidebar" type="AcmeWidgets\Knockout\Model\Sidebar" />
+  <preference for="Magento\Checkout\Model\Cart" type="AcmeWidgets\Knockout\Model\Cart" />
+
+  <!-- Block -->
+  <preference for="Magento\Checkout\Block\Cart\Sidebar" type="AcmeWidgets\Knockout\Block\Cart\Sidebar" />
+
+</config>

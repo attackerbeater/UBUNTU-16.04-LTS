@@ -1,0 +1,28 @@
+.load.indicator {
+    position: absolute;
+
+    & > span {
+        display: none;
+    }
+}
+
+.loading-mask {
+    @include lib-loading-mask();
+    background: rgba(255, 255, 255, 0.5);
+
+    .loader {
+        & > p {
+            display: none;
+        }
+    }
+}
+
+body {
+    & > .loading-mask {
+        z-index: 9999;
+    }
+}
+
+._block-content-loading {
+    position: relative;
+}

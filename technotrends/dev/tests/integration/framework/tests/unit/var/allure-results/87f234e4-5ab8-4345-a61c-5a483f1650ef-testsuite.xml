@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610619" stop="1560853610637" version="1.4.0">
+  <name>Magento\Test\Annotation\AppAreaTest</name>
+  <test-cases>
+    <test-case start="1560853610619" stop="1560853610631" status="passed">
+      <name>testGetTestAppArea with data set "method scope"</name>
+    </test-case>
+    <test-case start="1560853610631" stop="1560853610631" status="passed">
+      <name>testGetTestAppArea with data set "class scope"</name>
+    </test-case>
+    <test-case start="1560853610631" stop="1560853610632" status="passed">
+      <name>testGetTestAppArea with data set "mixed scope"</name>
+    </test-case>
+    <test-case start="1560853610632" stop="1560853610632" status="passed">
+      <name>testGetTestAppArea with data set "default area"</name>
+    </test-case>
+    <test-case start="1560853610632" stop="1560853610633" status="passed">
+      <name>testGetTestAppAreaWithInvalidArea</name>
+    </test-case>
+    <test-case start="1560853610633" stop="1560853610634" status="passed">
+      <name>testStartTestWithDifferentAreaCodes with data set #0</name>
+    </test-case>
+    <test-case start="1560853610634" stop="1560853610634" status="passed">
+      <name>testStartTestWithDifferentAreaCodes with data set #1</name>
+    </test-case>
+    <test-case start="1560853610634" stop="1560853610634" status="passed">
+      <name>testStartTestWithDifferentAreaCodes with data set #2</name>
+    </test-case>
+    <test-case start="1560853610635" stop="1560853610635" status="passed">
+      <name>testStartTestWithDifferentAreaCodes with data set #3</name>
+    </test-case>
+    <test-case start="1560853610635" stop="1560853610635" status="passed">
+      <name>testStartTestWithDifferentAreaCodes with data set #4</name>
+    </test-case>
+    <test-case start="1560853610635" stop="1560853610636" status="passed">
+      <name>testStartTestWithDifferentAreaCodes with data set #5</name>
+    </test-case>
+    <test-case start="1560853610636" stop="1560853610636" status="passed">
+      <name>testStartTestWithDifferentAreaCodes with data set #6</name>
+    </test-case>
+    <test-case start="1560853610636" stop="1560853610636" status="passed">
+      <name>testStartTestPreventDoubleAreaLoadingAfterReinitialization</name>
+    </test-case>
+    <test-case start="1560853610636" stop="1560853610637" status="passed">
+      <name>testStartTestPreventDoubleAreaLoading</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853654284" stop="1560853654309" version="1.4.0">
+  <name>Magento\Test\Integrity\ComposerLockTest</name>
+  <test-cases>
+    <test-case start="1560853654284" stop="1560853654287" status="passed">
+      <name>testLockFileExists</name>
+    </test-case>
+    <test-case start="1560853654287" stop="1560853654287" status="passed">
+      <name>testLockFileReadable</name>
+    </test-case>
+    <test-case start="1560853654287" stop="1560853654297" status="passed">
+      <name>testLockFileContainsJson</name>
+    </test-case>
+    <test-case start="1560853654297" stop="1560853654309" status="passed">
+      <name>testUpToDate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

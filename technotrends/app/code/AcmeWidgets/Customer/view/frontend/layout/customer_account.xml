@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+      <!-- Account Dashboard   -->
+      <!-- <referenceBlock name="customer-account-navigation-account-link" remove="true"/> -->
+
+      <!-- Account Information   -->
+      <!-- <referenceBlock name="customer-account-navigation-account-edit-link" remove="true"/> -->
+
+      <!-- Address Book   -->
+      <!-- <referenceBlock name="customer-account-navigation-address-link" remove="true"/> -->
+
+      <!-- My Orders   -->
+      <!-- <referenceBlock name="customer-account-navigation-orders-link" remove="true"/> -->
+
+      <!-- My Downloadable Products   -->
+      <!-- <referenceBlock name="customer-account-navigation-downloadable-products-link" remove="true"/> -->
+
+      <!-- Newsletter Subscriptions   -->
+      <!-- <referenceBlock name="customer-account-navigation-newsletter-subscriptions-link" remove="true"/> -->
+
+      <!-- My Credit Cards   -->
+      <!-- <referenceBlock name="customer-account-navigation-my-credit-cards-link" remove="true"/> -->
+
+      <!-- Billing Agreements   -->
+      <!-- <referenceBlock name="customer-account-navigation-billing-agreements-link" remove="true"/> -->
+
+      <!-- My Product Reviews   -->
+      <!-- <referenceBlock name="customer-account-navigation-product-reviews-link" remove="true"/> -->
+
+      <!-- My Wish List   -->
+      <!-- <referenceBlock name="customer-account-navigation-wish-list-link" remove="true"/>   -->
+
+    </body>
+</page>

@@ -1,0 +1,262 @@
+<?php
+use Magento\Framework\App\Action\Action;
+?>
+<?php
+    $_productCollection = $block->getLoadedProductCollection();
+    $_helper = $this->helper('Magento\Catalog\Helper\Output');
+?>
+<?php if (!$_productCollection->count()): ?>
+    <div class="message info empty">
+        <?= __('We can\'t find products matching the selection.') ?>
+    </div>
+<?php else: ?>
+    <?= $block->getToolbarHtml() ?>
+    <?= $block->getAdditionalHtml() ?>
+    <?php
+        if ($block->getMode() == 'grid') {
+            $viewMode = 'products-grid';
+            $imageDisplayArea = 'category_page_grid';
+            $showDescription = false;
+            $templateType = \Magento\Catalog\Block\Product\ReviewRendererInterface::SHORT_VIEW;
+        } else {
+            $viewMode = 'products-list';
+            $imageDisplayArea = 'category_page_list';
+            $showDescription = true;
+            $templateType = \Magento\Catalog\Block\Product\ReviewRendererInterface::SHORT_VIEW;
+        }
+        /**
+         * Position for actions regarding image size changing in vde if needed
+         */
+        $pos = $block->getPositioned();
+    ?>
+    <?php /** @var $_product \Magento\Catalog\Model\Product */ ?>
+    <?php if($viewMode === 'products-list'): ?>
+        <?php foreach ($_productCollection as $_product): ?>
+            <section
+                class="
+                    catalog-list-item
+                    catalog-list__item
+                    product-item-details
+                    product-item-info
+                "
+            >
+                <?php $productImage = $block->getImage($_product, $imageDisplayArea) ?>
+                <a
+                    href="<?= $block->getProductUrl($_product) ?>"
+                    class="
+                        catalog-list-item__image-wrapper
+                        catalog-list-item__link
+                    "
+                    title="<?= $_product['name'] ?>"
+                >
+                    <?= $productImage->toHtml() ?>
+                </a>
+                <div class="catalog-list-item__main">
+                    <div class="catalog-list-item__details">
+                        <h2 class="catalog-list-item__name">
+                            <a
+                                href="<?= $block->getProductUrl($_product) ?>"
+                                class="catalog-list-item__link"
+                                title="<?= $_product['name'] ?>"
+                            >
+                                <?= $_product['name'] ?>
+                            </a>
+                        </h2>
+                        <div class="catalog-list-item__reviews">
+                            <div class="rating">
+                                <?= $block->getReviewsSummaryHtml($_product, $templateType) ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-list-item__price">
+                        <div class="price">
+                            <span class="price__value">
+                                <?= $block->getProductPrice($_product) ?>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="catalog-grid-item__options">
+                        <?= $block->getProductDetailsHtml($_product) ?>
+                    </div>
+                    <div class="catalog-list-item__actions">
+                        <div class="catalog-list-item__actions-primary">
+                            <?php if ($_product->isSaleable()): ?>
+                                <?php $postParams = $block->getAddToCartPostParams($_product) ?>
+                                <form
+                                    data-role="tocart-form"
+                                    action="<?= $postParams['action'] ?>"
+                                    method="post"
+                                >
+                                    <input
+                                        type="hidden"
+                                        name="<?= Action::PARAM_NAME_URL_ENCODED ?>"
+                                        value="<?= $postParams['data'][Action::PARAM_NAME_URL_ENCODED] ?>"
+                                    >
+                                    <?= $block->getBlockHtml('formkey') ?>
+                                    <button
+                                        class="
+                                            button
+                                            button--secondary
+                                            catalog-list-item__actions-primary-button
+                                            action
+                                            tocart
+                                        "
+                                        type="submit"
+                                    >
+                                        <span>
+                                            <?= __('Add to Cart') ?>
+                                        </span>
+                                    </button>
+                                </form>
+                            <?php else: ?>
+                                <?php if ($_product->getIsSalable()): ?>
+                                    <span
+                                        class="
+                                            catalog-list-item__stock-status
+                                            catalog-list-item__stock-status--in-stock
+                                        "
+                                    >
+                                        <?= __('In stock') ?>
+                                    </span>
+                                <?php else: ?>
+                                    <span
+                                        class="
+                                            catalog-list-item__stock-status
+                                            catalog-list-item__stock-status--out-of-stock
+                                        "
+                                    >
+                                        <?= __('Out of stock') ?>
+                                    </span>
+                                <?php endif ?>
+                            <?php endif ?>
+                        </div>
+                        <div class="catalog-list-item__actions-secondary">
+                            <?php if ($addToBlock = $block->getChildBlock('addto')): ?>
+                                <?= $addToBlock->setProduct($_product)->getChildHtml() ?>
+                            <?php endif ?>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <?php endforeach ?>
+
+    <?php else: ?>
+        <ul class="catalog-grid">
+            <?php foreach ($_productCollection as $_product): ?>
+                <?php $productImage = $block->getImage($_product, $imageDisplayArea) ?>
+                <li
+                    class="
+                        catalog-grid-item
+                        product-item-details
+                        product-item-info
+                    "
+                    data-container="product-grid"
+                    tabindex="0"
+                >
+                    <a
+                        href="<?= $block->getProductUrl($_product) ?>"
+                        class="catalog-grid-item__link"
+                        tabindex="-1"
+                    >
+                        <div class="catalog-grid-item__image-wrapper">
+                            <?= $productImage->toHtml() ?>
+                        </div>
+                    </a>
+                    <section class="catalog-grid-item__details">
+                        <div class="catalog-grid-item__name">
+                            <a
+                                href="<?= $block->getProductUrl($_product) ?>"
+                                class="catalog-grid-item__name-link"
+                            >
+                                <?= $_product['name'] ?>
+                            </a>
+                        </div>
+                        <div class="catalog-grid-item__price">
+                            <div class="price">
+                                <span class="price__value">
+                                    <?= $block->getProductPrice($_product) ?>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rating catalog-grid-item__rating">
+                            <?= $block->getReviewsSummaryHtml($_product, $templateType) ?>
+                        </div>
+                        <div class="catalog-grid-item__options">
+                            <?= $block->getProductDetailsHtml($_product) ?>
+                        </div>
+                        <div class="catalog-grid-item__actions">
+                            <?php if ($_product->isSaleable()): ?>
+                                <?php $postParams = $block->getAddToCartPostParams($_product) ?>
+                                <form
+                                    class="catalog-grid-item__primary-form"
+                                    data-role="tocart-form"
+                                    action="<?= $postParams['action'] ?>"
+                                    method="post"
+                                >
+                                    <input
+                                        type="hidden"
+                                        name="<?= Action::PARAM_NAME_URL_ENCODED ?>"
+                                        value="<?= $postParams['data'][Action::PARAM_NAME_URL_ENCODED] ?>"
+                                    >
+                                    <?= $block->getBlockHtml('formkey') ?>
+                                    <button
+                                        class="
+                                            button
+                                            button--secondary
+                                            catalog-grid-item__primary-action
+                                            action
+                                            tocart
+                                        "
+                                        type="submit"
+                                    >
+                                        <span class="catalog-grid-item__cart-text">
+                                            <?= __('Add to Cart') ?>
+                                        </span>
+                                        <svg class="icon catalog-grid-item__cart-icon">
+                                            <use xlink:href="<?= $block->getViewFileUrl('/images/icons-sprite.svg#shopping-cart') ?>"></use>
+                                        </svg>
+                                    </button>
+                                </form>
+                            <?php else: ?>
+                                <?php if ($_product->getIsSalable()): ?>
+                                    <span
+                                        class="
+                                            catalog-list-item__stock-status
+                                            catalog-list-item__stock-status--in-stock
+                                        "
+                                    >
+                                        <?= __('In stock') ?>
+                                    </span>
+                                <?php else: ?>
+                                    <span
+                                        class="
+                                            catalog-list-item__stock-status
+                                            catalog-list-item__stock-status--out-of-stock
+                                        "
+                                    >
+                                        <?= __('Out of stock') ?>
+                                    </span>
+                                <?php endif ?>
+                            <?php endif ?>
+                            <div class="catalog-grid-item__secondary-action">
+                                <?php if ($addToBlock = $block->getChildBlock('addto')): ?>
+                                    <?= $addToBlock->setProduct($_product)->getChildHtml() ?>
+                                <?php endif ?>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+            <?php endforeach ?>
+        </ul>
+    <?php endif ?>
+    <?= $block->getToolbarHtml() ?>
+    <?php if (!$block->isRedirectToCartEnabled()) : ?>
+        <script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form], .form.map.checkout": {
+                "catalogAddToCart": {}
+            }
+        }
+        </script>
+    <?php endif ?>
+<?php endif ?>

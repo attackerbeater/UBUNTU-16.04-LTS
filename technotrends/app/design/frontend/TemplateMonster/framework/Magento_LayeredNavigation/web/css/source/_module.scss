@@ -1,0 +1,69 @@
+//
+//  Filters
+//  __________________________________________________
+
+.filter{}
+.filter-title{
+    
+}
+.filter-content{}
+
+//Current filters
+.filter-current{
+    margin-bottom: $indent-small;
+    .items{}
+    .item{}
+    .remove{
+        @include font-icon("\f00d", $fa);
+        span{
+            display: none;
+        }
+    }
+}
+.filter-label{}
+.filter-value{}
+
+//Filter actions
+.filter-actions{
+    margin-bottom: $indent-small;
+}
+
+//Filter options
+.filter-options{}
+.filter-options-title{
+    @include font-icon('\f105');
+    position: relative;
+    font-weight: 600;
+    margin-bottom: $indent-small / 2;
+    padding-left: 15px;
+    cursor: pointer;
+    &::before{
+        @extend .regular;
+        position: absolute;
+        left: 0; 
+        top: 0;
+    }
+}
+
+.filter-options-item.active{
+    .filter-options-title{
+        @include font-icon__icon($icon:'\f107');
+    }
+}
+
+.filter-options-content{
+    margin-bottom: $indent-small / 2;
+    .items{}
+    .item{}
+    .count{
+        font-style: italic;
+        margin-left: $indent-small / 2;
+    }
+    .filter-count-label{}
+}
+
+@media (max-width: $screen-sm-min) {
+    #layered-filter-block{
+        margin: 0;
+    }
+}

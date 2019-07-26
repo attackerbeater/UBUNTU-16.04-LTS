@@ -1,0 +1,44 @@
+// /**
+//  * Copyright © 2015 Magento. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  Variables
+//  _____________________________________________
+
+$checkout-sidebar__margin: 10px;
+$checkout-sidebar__border: 1px solid lighten($default, 50%);
+
+
+//
+//  Desktop
+//  _____________________________________________
+
+.opc-sidebar {
+    .opc-block-summary span.title{
+        @extend .heading-3;
+        display: block;
+        border-bottom: $checkout-sidebar__border;
+        padding-bottom: $checkout-sidebar__margin;
+        margin-bottom: $checkout-sidebar__margin;
+
+    }
+}
+
+.block.items-in-cart{
+    margin-top: $indent-base;
+    .product-item{
+        margin-bottom: $indent-small;
+        .product-image-container{
+            float: left;
+            margin: 0 $indent-small $indent-small 0;
+        }
+    }
+}
+
+.opc-block-shipping-information{
+    .ship-to{
+        margin-top: $indent-base;
+    }
+}

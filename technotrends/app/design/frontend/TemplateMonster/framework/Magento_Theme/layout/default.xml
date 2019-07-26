@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        <!-- Inline scripts -->
+        <referenceContainer name="before.body.end">
+            <block class="Magento\RequireJs\Block\Html\Head\Config" name="requirejs-config"/>
+            <block class="Magento\Translation\Block\Js" name="translate" template="Magento_Translation::translate.phtml"/>
+            <block class="Magento\Framework\View\Element\Js\Cookie" name="js_cookies" template="Magento_Theme::js/cookie.phtml"/>
+            <block class="Magento\Theme\Block\Html\Notices" name="global_notices" template="html/notices.phtml"/>
+        </referenceContainer>
+        <!-- Inline scripts END -->
+
+        <!-- Header. RD-Navbar -->
+        <referenceContainer name="header.container">
+            <container name="rd.navbar-wrap" htmlTag="div" htmlClass="rd-navbar">
+                <container name="rd.navbar" htmlTag="div" htmlClass="rd-navbar-panel" />
+            </container>
+        </referenceContainer>
+        <referenceBlock name="skip_to_content" remove="true" />
+
+        <!-- Header Panel -->
+        <referenceContainer name="header.panel" htmlClass="panel page-header__panel">
+            <container name="header.panel.grid-container" htmlClass="container" htmlTag="div" before="-" />
+        </referenceContainer>
+        <!-- Header Panel END -->
+
+        <!-- Header Content -->
+        <referenceContainer name="header-wrapper" htmlClass="page-header__content">
+            <container name="header-wrapper.grid-container" htmlClass="container" htmlTag="div" before="-"/>
+        </referenceContainer>
+        <!-- Header Content END -->
+
+        <move element="header.panel"    destination="rd.navbar" before="-" />
+        <move element="header-wrapper"  destination="rd.navbar" after="header.panel" />
+        <move element="catalog.topnav"  destination="rd.navbar-wrap" after="rd.navbar" />
+
+        <!-- Navbar Collapse -->
+        <container name="rd.navbar.collapse" htmlClass="rd-navbar-collapse-container" htmlTag="div" after="-">
+            <container name="rd.navbar.collapse.items" htmlClass="rd-navbar-collapse" htmlTag="div">
+                <block class="Magento\Store\Block\Switcher" name="store_language_mobile" as="store_language" template="switch/languages_mobile.phtml"/>
+                <block class="Magento\Directory\Block\Currency" name="currency_mobile" before="store_language" template="currency_mobile.phtml" after="store_language_mobile"/>
+            </container>
+        </container>
+        <move element="top.links" destination="rd.navbar.collapse.items"/>
+        <!-- Navbar Collapse End -->
+        
+        <move element="header"             destination="header.panel.grid-container" before="-"/><!-- Welcome message -->
+        <move element="rd.navbar.collapse" destination="header.panel.grid-container" after="header"/> <!-- Top links -->
+        <move element="logo"               destination="header-wrapper.grid-container" before="-"/>
+        <move element="currency"           destination="header-wrapper.grid-container" after="logo" />
+        <move element="store_language"     destination="header-wrapper.grid-container" after="currency" />
+        <move element="top.search"         destination="header-wrapper.grid-container" after="store_language" />
+        <move element="minicart"           destination="header-wrapper.grid-container" after="top.search"/>
+
+        <!-- Header. RD-Navbar END -->
+
+        <!-- Logo -->
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.png</argument>
+                <argument name="logo_img_width" xsi:type="number">64</argument>
+                <argument name="logo_img_height" xsi:type="number">64</argument>
+            </arguments>
+        </referenceBlock>
+        <!-- Logo END -->
+
+        <!-- Page messages -->
+        <referenceContainer name="page.messages" htmlClass="page-messages messages">
+            <container name="page.messages.grid-container" htmlClass="container" htmlTag="div" before="-"/>
+        </referenceContainer>
+        <move element="ajax.message.placeholder" destination="page.messages.grid-container"/>
+        <move element="messages" destination="page.messages.grid-container"/>
+        <!-- Page messages END -->
+
+        <!-- Footer -->
+        <referenceContainer name="footer" htmlClass="page-footer">
+            <container name="footer.grid-container" htmlClass="container" htmlTag="div" before="-">
+                <container name="footer.grid-row" htmlClass="row" htmlTag="div">
+                    <container name="footer.grid-col1" htmlClass="col-sm-4" htmlTag="div"/>
+                    <container name="footer.grid-col2" htmlClass="col-sm-4" htmlTag="div"/>
+                    <container name="footer.grid-col3" htmlClass="col-sm-4" htmlTag="div"/>
+                </container>
+            </container>
+        </referenceContainer>
+        <move element="store_switcher" destination="footer.grid-container" before="-"/>
+        <move element="footer_links"   destination="footer.grid-col1"/>
+        <move element="copyright"      destination="footer.grid-col2"/>
+        <move element="report.bugs"    destination="footer.grid-container" after="copyright"/>
+        <!-- Footer END -->
+    </body>
+</page>

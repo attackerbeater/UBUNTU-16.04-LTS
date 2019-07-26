@@ -1,0 +1,77 @@
+<div class="dashboard-table dashboard-table--tab">
+    <?php $_order = $block->getOrder(); ?>
+
+    <div class="dashboard-table__header">
+        <h3 class="dashboard-table__title">
+            <?= __('Refund #') ?>
+            <?= $_order->getIncrementId(); ?>
+        </h3>
+
+        <?php if (sizeof($_order->getItems()) > 0): ?>
+            <a class="link dashboard-table__link"
+               href="<?= $block->getPrintAllCreditmemosUrl($_order) ?>"
+               onclick="this.target='_blank'"
+            >
+                <?= __('Print All Refunds') ?>
+            </a>
+        <?php endif; ?>
+    </div>
+
+    <?php foreach ($_order->getCreditmemosCollection() as $_creditmemo): ?>
+        <div class="dashboard-table__content">
+            <table
+                class="table dashboard-table__table"
+                id="my-refund-table-<?= $_creditmemo->getId() ?>"
+            >
+                <thead>
+                    <tr>
+                        <th class="name">
+                            <?= __('Product Name') ?>
+                        </th>
+
+                        <th class="sku">
+                            <?= __('SKU') ?>
+                        </th>
+
+                        <th class="price">
+                            <?= __('Price') ?>
+                        </th>
+
+                        <th class="qty">
+                            <?= __('Qty') ?>
+                        </th>
+
+                        <th class="subtotal">
+                            <?= __('Subtotal') ?>
+                        </th>
+
+                        <th class="discount">
+                            <?= __('Discount Amount') ?>
+                        </th>
+
+                        <th class="total">
+                            <?= __('Row Total') ?>
+                        </th>
+                    </tr>
+                </thead>
+
+                <?php $_items = $_creditmemo->getAllItems(); ?>
+                <?php $_count = count($_items) ?>
+
+                <?php foreach ($_items as $_item): ?>
+                    <?php if ($_item->getOrderItem()->getParentItem()): continue; endif; ?>
+
+                    <tbody>
+                        <?= $block->getItemHtml($_item) ?>
+                    </tbody>
+                <?php endforeach; ?>
+
+                <tfoot>
+                    <?= $block->getTotalsHtml($_creditmemo); ?>
+                </tfoot>
+            </table>
+        </div>
+
+        <?= $block->getCommentsHtml($_creditmemo) ?>
+    <?php endforeach; ?>
+</div>

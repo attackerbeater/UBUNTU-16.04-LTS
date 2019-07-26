@@ -1,0 +1,12 @@
+<?php
+    /* @var \Magento\Wishlist\Model\Item $item */
+    $item = $block->getItem();
+    $product = $item->getProduct();
+?>
+<a
+    href="<?= $block->getProductUrl($item) ?>"
+    title="<?= $block->escapeHtml($product->getName()) ?>"
+    class="wishlist__link"
+>
+    <?= $block->getImage($product, 'wishlist_thumbnail')->toHtml(); ?>
+</a>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853611031" stop="1560853611035" version="1.4.0">
+  <name>Magento\Test\Workaround\Cleanup\TestCasePropertiesTest</name>
+  <test-cases>
+    <test-case start="1560853611031" stop="1560853611034" status="passed">
+      <name>testEndTestSuiteDestruct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

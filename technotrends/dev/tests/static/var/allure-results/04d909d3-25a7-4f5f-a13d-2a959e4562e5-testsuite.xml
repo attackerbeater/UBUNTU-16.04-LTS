@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853695892" stop="1560853695936" version="1.4.0">
+  <name>Magento\Test\Integrity\Magento\Framework\Search\RequestConfigTest</name>
+  <test-cases>
+    <test-case start="1560853695892" stop="1560853695903" status="passed">
+      <name>testSchemaUsingInvalidXml</name>
+    </test-case>
+    <test-case start="1560853695904" stop="1560853695906" status="passed">
+      <name>testFileSchemaUsingInvalidXml</name>
+    </test-case>
+    <test-case start="1560853695906" stop="1560853695920" status="passed">
+      <name>testSchemaUsingValidXml</name>
+    </test-case>
+    <test-case start="1560853695921" stop="1560853695934" status="passed">
+      <name>testXmlFiles</name>
+    </test-case>
+    <test-case start="1560853695934" stop="1560853695935" status="passed">
+      <name>testFileSchemaUsingPartialXml</name>
+    </test-case>
+    <test-case start="1560853695935" stop="1560853695936" status="passed">
+      <name>testSchemaUsingPartialXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

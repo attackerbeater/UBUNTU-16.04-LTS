@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853695686" stop="1560853695816" version="1.4.0">
+  <name>Magento\Test\Integrity\Magento\Core\Model\Fieldset\FieldsetConfigTest</name>
+  <test-cases>
+    <test-case start="1560853695687" stop="1560853695798" status="passed">
+      <name>testXmlFiles</name>
+    </test-case>
+    <test-case start="1560853695798" stop="1560853695812" status="passed">
+      <name>testSchemaUsingValidXml</name>
+    </test-case>
+    <test-case start="1560853695813" stop="1560853695814" status="passed">
+      <name>testSchemaUsingInvalidXml</name>
+    </test-case>
+    <test-case start="1560853695814" stop="1560853695815" status="passed">
+      <name>testFileSchemaUsingValidXml</name>
+    </test-case>
+    <test-case start="1560853695815" stop="1560853695816" status="passed">
+      <name>testFileSchemaUsingInvalidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

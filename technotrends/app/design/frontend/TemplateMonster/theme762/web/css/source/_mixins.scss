@@ -1,0 +1,42 @@
+
+@import '../../../../framework/web/css/source/_mixins.scss';
+
+@import 'helpers/_flexbox.scss';
+
+@mixin material-icon{
+  font-family: 'Material Icons';
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+@mixin material-design{
+  font-family: 'material-design';
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+@mixin font-awesome{
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
+
+@mixin placeholder-focus {
+  &:focus::-webkit-input-placeholder {@content}
+  &:focus::-moz-placeholder          {@content}
+  &:focus:-moz-placeholder           {@content}
+  &:focus:-ms-input-placeholder      {@content}
+}

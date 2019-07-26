@@ -1,0 +1,446 @@
+//
+//  Main Styles
+//  _____________________________________________
+
+html{
+    //background-image: url(http://basehold.it/i/14);
+}
+
+.page-header__panel{
+    padding: 10px 0;
+    .links{
+        order: 2;
+    }
+}
+.page-header__content{
+    padding: 10px 0;
+}
+
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html{}
+body{
+    font-family: $default-font-family;
+    font-weight: $default-font-weight;
+    font-size: $default-font-size;
+    line-height: 1.7;
+    text-align: left;
+    -webkit-text-size-adjust: none;
+    color: $content-color;
+    background: $content-bg;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $default-font-size;
+        line-height: $default-line-height;
+    }
+}
+
+/*Stick to bottom footer*/
+$footer-height: 18rem;
+.page-wrapper{
+    //min-height: 100%;
+    //margin-bottom: -($footer-height + 2rem);
+    &:after {
+        content: "";
+        display: block;
+    }
+}
+.page-footer{
+    //height: $footer-height;
+}
+/*--------------*/
+
+a {
+    color: $link-regular;
+}
+
+a:hover {
+    color: $link-hover;
+}
+
+//  Headings
+h1, h2, h3, h4, h5, h6,
+.heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6{
+    a {
+        color: $link-regular;
+    }
+
+    a:hover {
+        color: $link-hover;
+    }
+}
+
+
+//Paragraph
+p {
+    margin-bottom: $indent-small;
+}
+
+p, .list, .contact-info {
+    a {
+        color: $primary;
+    }
+
+    a:hover {
+        color: $link-hover;
+    }
+}
+
+mark {
+    color: #FFF;
+    background: $primary;
+}
+
+em {
+    color: $primary;
+}
+
+small, .small {
+    font-size: .8em;
+}
+
+.big {
+    font-size: 1.2em;
+}
+
+time {
+}
+
+pre{
+    white-space: normal;
+}
+
+//
+//  Header
+//  _____________________________________________
+
+.page-header{
+    margin-bottom: $indent-base;
+}
+.page-header__panel{
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .greet{}
+    .rd-navbar-collapse{}
+}
+
+.page-header__content{
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        flex-grow: 3;
+    }
+}
+
+.header.links{
+    li{
+        margin-left: $indent-small;
+    }
+}
+
+//
+//  Switchers
+//  ---------------------------------------------
+
+//Switcher variables
+$switcher-dropdown-bg: $white;
+$switcher-dropdown-color: $default;
+$switcher-dropdown-bg-hover: lighten($default, 60%);
+$switcher-dropdown-color-hover: $default;
+$switcher-dropdown-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.2);
+
+.switcher{
+    position: relative;
+    margin: 0 $indent-small;
+    padding: 0;
+    .toggle{
+        cursor: pointer;
+        &::after{
+            font-family: $fa;
+            content: '\f107';
+            padding: 4px;
+        }
+        &.active{
+            &::after{
+                font-family: $fa;
+                content: '\f106';
+            }
+        }
+    }
+    .dropdown{
+        .mage-dropdown-dialog{
+            @include transform(translateY(-30px));
+            transition: .3s all ease;
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            left: 0;
+            background: $switcher-dropdown-bg;
+            box-shadow: $switcher-dropdown-shadow;
+            border: none;
+            width: 250px;
+            z-index: 15;
+
+            a{
+                display: block;
+                padding: 5px 10px;
+                color: $switcher-dropdown-color;
+
+                &:hover{
+                    color: $switcher-dropdown-color-hover;
+                    background: $switcher-dropdown-bg-hover;
+                }
+            }
+        }
+        &.active .mage-dropdown-dialog{
+            opacity: 1;
+            visibility: visible;
+            @include transform(translateY(0));
+        }
+    }
+}
+
+.switcher-label{
+    display: none;
+}
+.switcher-options{
+    display: inline-block;
+    &.active{
+        .switcher-dropdown{
+            display: inline-block;
+        }
+    }
+}
+.switcher-trigger{}
+.switcher-dropdown{
+    display: none;
+}
+
+.links{
+    li{
+        display: inline-block;
+    }
+}
+
+//
+//  Navigation
+//  ---------------------------------------------
+
+.page-top{
+    margin-bottom: $indent-base;
+}
+
+
+//
+//  Breadcrumbs
+//  ---------------------------------------------
+
+.breadcrumbs{
+    margin-bottom: $indent-base;
+    .items{
+        .item{
+            display: inline-block;
+            font-size: 0.75em;
+            margin-right: $indent-small/2;
+            padding-right: $indent-small/2;
+            position: relative;
+            &:before{
+                position: absolute;
+                right: -4px;
+                top: 0;
+                @include font-icon__content("\f105");
+            }
+            &:last-child{
+                margin-right: 0;
+                padding-right: 0;
+                &:before{
+                    display: none;
+                }
+            }
+            &.home{}
+            a{}
+        }
+    }
+}
+
+//
+//  Main content
+//  _____________________________________________
+
+.page-main{
+    margin-bottom: $indent-base;
+}
+
+//Page title
+.page-title-wrapper{
+    margin-bottom: $indent-base;
+}
+
+//
+//  Page layouts
+//  ---------------------------------------------
+
+.columns > .row{
+    @include make-flex();
+    @include flex(0 1 auto);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+}
+
+//Three columns
+.page-layout-3columns{
+    .grid-left{
+        @include order(1);
+    }
+    .grid-main{
+        @include order(2);
+    }
+    .grid-right{
+        @include order(3);
+    }
+}
+
+//Two columns with right aside
+.page-layout-2columns-right{
+    .grid-main{
+        @include order(1);
+    }
+    .grid-right{
+        @include order(2);
+    }
+}
+
+//Two columns with left aside
+.page-layout-2columns-left{
+    .grid-left{
+        @include order(1);
+    }
+    .grid-main{
+        @include order(2);
+    }
+}
+.page-layout-1column{
+
+}
+
+@media (max-width: $screen-sm-min - 1){
+
+    .page-layout-3columns,
+    .page-layout-2columns-right,
+    .page-layout-2columns-left{
+        .grid-left,
+        .grid-main{
+            @include flex-basis(100%);
+        }.grid-main{
+            @include order(1);
+        }
+        .grid-left{
+            @include order(2);
+        }
+        .grid-right{
+            @include order(3);
+        }
+        
+    }
+}
+
+//
+//  Blocks
+//  ---------------------------------------------
+
+.block{
+    margin-bottom: $indent-base;
+}
+
+
+.block-title{
+    margin-bottom: $indent-small;
+    position: relative;
+    strong{
+        @extend .heading-3;
+    }
+    .action{
+        float: right;
+        padding: 0;
+        background: 0;
+        line-height: inherit;
+        &.edit{
+            padding: 0 $button-padding-hor;
+        }
+    }
+    .counter{
+        float: right;
+        font-size: .8rem;
+    }
+}
+.block-subtitle{
+    display: block;
+    margin-bottom: $indent-small;
+}
+.block-content{}
+
+
+//
+//  Boxes
+//  ---------------------------------------------
+
+.box{
+    margin-bottom: $indent-small;
+}
+.box-title{
+    margin-bottom: $indent-small;
+    display: block;
+    @extend .heading-4;
+}
+.box-content{}
+
+
+//
+//  Sidebars
+//  ---------------------------------------------
+
+.sidebar{
+    .block{
+        margin-bottom: $indent-base;
+        .block-title{
+            @extend .heading-3;
+        }
+    }
+}
+
+//
+//  Footer
+//  ---------------------------------------------
+
+.page-footer{
+    clear: both;
+}
+
+.copyright-container{
+    margin: $indent-small 0;
+}
+
+.footer{
+    &.links{
+        .item{
+            display: block;
+        }
+    }
+}
+
+//
+//  Helpers
+//  ---------------------------------------------
+.no-display{
+    display: none;
+}

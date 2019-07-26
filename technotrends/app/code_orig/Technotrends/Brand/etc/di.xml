@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+  <virtualType name="moduleConfig" type="Magento\Core\Model\Config">
+    <arguments>
+      <argument name="type" xsi:type="string">system</argument>
+    </arguments>
+  </virtualType>
+  <type name="Magento\Core\Model\App">
+    <arguments>
+      <argument name="config" xsi:type="object">moduleConfig</argument>
+    </arguments>
+  </type>
+
+  <!-- <type name="Magento\Core\Model\Session">
+      <arguments>
+          <argument name="sessionName" xsi:type="string">adminhtml</argument>
+      </arguments>
+  </type> -->
+</config>

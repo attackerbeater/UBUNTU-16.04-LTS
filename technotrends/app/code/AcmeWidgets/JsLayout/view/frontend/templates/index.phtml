@@ -1,0 +1,16 @@
+<script type="text/x-magento-init">
+{
+  "*" : {
+    "Magento_Ui/js/core/app": {
+      "components" :{
+        "testindex" : {
+          "component": "AcmeWidgets_JsLayout/js/index"
+        }
+      }
+    }
+  }
+}
+</script>
+<div data-bind="scope: 'testindex'">
+  <!-- ko template: getTemplate() --><!-- /ko -->
+</div>

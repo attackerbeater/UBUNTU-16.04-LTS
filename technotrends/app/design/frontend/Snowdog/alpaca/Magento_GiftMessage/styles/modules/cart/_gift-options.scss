@@ -1,0 +1,35 @@
+.gift-options {
+    .gift-item-block {
+        &._active {
+            .gift-options__title-icon {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        cursor: pointer;
+
+        &-text {
+            margin-right: 15px;
+            font-weight: 500;
+        }
+
+        &-icon {
+            width: 14px;
+            height: 14px;
+            transition: $transition-base;
+        }
+    }
+
+    &__sub-title {
+        margin: 15px 0;
+    }
+
+    &__fields {
+        margin-bottom: 5px;
+    }
+}

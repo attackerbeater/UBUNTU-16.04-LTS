@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610642" stop="1560853610645" version="1.4.0">
+  <name>Magento\Test\Annotation\AppIsolationTest</name>
+  <test-cases>
+    <test-case start="1560853610642" stop="1560853610643" status="passed">
+      <name>testStartTestSuite</name>
+    </test-case>
+    <test-case start="1560853610643" stop="1560853610643" status="passed">
+      <name>testEndTestIsolationInvalid</name>
+    </test-case>
+    <test-case start="1560853610644" stop="1560853610644" status="passed">
+      <name>testEndTestIsolationAmbiguous</name>
+    </test-case>
+    <test-case start="1560853610644" stop="1560853610644" status="passed">
+      <name>testEndTestIsolationDefault</name>
+    </test-case>
+    <test-case start="1560853610644" stop="1560853610644" status="passed">
+      <name>testEndTestIsolationController</name>
+    </test-case>
+    <test-case start="1560853610644" stop="1560853610645" status="passed">
+      <name>testEndTestIsolationDisabled</name>
+    </test-case>
+    <test-case start="1560853610645" stop="1560853610645" status="passed">
+      <name>testEndTestIsolationEnabled</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

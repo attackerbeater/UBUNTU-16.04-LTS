@@ -1,0 +1,12 @@
+<?php $_order = $block->getOrder() ?>
+
+<div class="dashboard__handler">
+    <h3 class="dashboard__title--wrapped">
+        <?= __('Order #') ?>
+        <?= $_order->getRealOrderId() ?>
+    </h3>
+
+    <span class="dashboard__status">
+        <?= $_order->getStatus() ?>
+    </span>
+</div>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610827" stop="1560853610830" version="1.4.0">
+  <name>Magento\Test\Helper\BootstrapTest</name>
+  <test-cases>
+    <test-case start="1560853610827" stop="1560853610828" status="passed">
+      <name>testGetInstanceEmptyProhibited</name>
+    </test-case>
+    <test-case start="1560853610828" stop="1560853610828" status="passed">
+      <name>testSetInstanceFirstAllowed</name>
+    </test-case>
+    <test-case start="1560853610829" stop="1560853610829" status="passed">
+      <name>testGetInstanceAllowed</name>
+    </test-case>
+    <test-case start="1560853610829" stop="1560853610829" status="passed">
+      <name>testSetInstanceChangeProhibited</name>
+    </test-case>
+    <test-case start="1560853610830" stop="1560853610830" status="passed">
+      <name>testCanTestHeaders</name>
+    </test-case>
+    <test-case start="1560853610830" stop="1560853610830" status="passed">
+      <name>testGetAppTempDir</name>
+    </test-case>
+    <test-case start="1560853610830" stop="1560853610830" status="passed">
+      <name>testGetAppInitParams</name>
+    </test-case>
+    <test-case start="1560853610830" stop="1560853610830" status="passed">
+      <name>testReinitialize</name>
+    </test-case>
+    <test-case start="1560853610830" stop="1560853610830" status="passed">
+      <name>testRunApp</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

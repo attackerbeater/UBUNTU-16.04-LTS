@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853696404" stop="1560853696502" version="1.4.0">
+  <name>Magento\Test\Integrity\Magento\Widget\WidgetConfigTest</name>
+  <test-cases>
+    <test-case start="1560853696404" stop="1560853696494" status="passed">
+      <name>testXmlFiles</name>
+    </test-case>
+    <test-case start="1560853696494" stop="1560853696496" status="passed">
+      <name>testSchemaUsingValidXml</name>
+    </test-case>
+    <test-case start="1560853696497" stop="1560853696499" status="passed">
+      <name>testSchemaUsingInvalidXml</name>
+    </test-case>
+    <test-case start="1560853696499" stop="1560853696500" status="passed">
+      <name>testFileSchemaUsingXml</name>
+    </test-case>
+    <test-case start="1560853696501" stop="1560853696502" status="passed">
+      <name>testFileSchemaUsingInvalidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

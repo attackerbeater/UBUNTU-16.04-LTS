@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <body>
+    <referenceContainer name="content">
+      <block class="AcmeWidgets\Knockout\Block\Index" as="acmewidgets.knockout.index" name="acmewidgets_knockout_index" template="AcmeWidgets_Knockout::index2.phtml">
+        <arguments>
+            <argument name="jsLayout" xsi:type="array">
+                <item name="components" xsi:type="array">
+                    <item name="anyName" xsi:type="array"><!-- checkout -->
+                        <item name="component" xsi:type="string">AcmeWidgets_Knockout/js/index2</item>
+                        <item name="config" xsi:type="array"><!-- children -->
+                            <item name="first" xsi:type="string">FirstValueFromXml</item>
+                            <item name="second" xsi:type="string">SecondValueFromXml</item>
+                            <item name="div2" xsi:type="string">Div 2 content from xml arguments 1</item>
+                            <item name="myVar" xsi:type="string">My Value</item>
+                            <item name="myVar2" xsi:type="string">My Value2</item>
+                            <item name="displayArea" xsi:type="string">test</item>
+                        </item>
+                    </item>
+                </item>
+            </argument>
+        </arguments>
+      </block>
+    </referenceContainer>
+  </body>
+</page>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610793" stop="1560853610796" version="1.4.0">
+  <name>Magento\Test\Event\MagentoTest</name>
+  <test-cases>
+    <test-case start="1560853610793" stop="1560853610796" status="passed">
+      <name>testConstructorDefaultEventManager</name>
+    </test-case>
+    <test-case start="1560853610796" stop="1560853610796" status="passed">
+      <name>testConstructorException with data set "no event manager"</name>
+    </test-case>
+    <test-case start="1560853610796" stop="1560853610796" status="passed">
+      <name>testConstructorException with data set "not an event manager"</name>
+    </test-case>
+    <test-case start="1560853610796" stop="1560853610796" status="passed">
+      <name>testInitStoreAfter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

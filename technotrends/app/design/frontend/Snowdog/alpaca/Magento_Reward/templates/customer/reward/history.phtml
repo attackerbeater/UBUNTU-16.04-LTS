@@ -1,0 +1,90 @@
+<?php
+/**
+ * @see \Magento\Reward\Block\Customer\Reward\History
+ */
+?>
+<div class="dashboard-table dashboard__item">
+    <div class="dashboard-table__header">
+        <h3 class=" dashboard-table__title">
+            <?= __('Balance History'); ?>
+        </h3>
+    </div>
+
+    <?php if ($history = $block->getHistory()):?>
+        <div class="dashboard-table__content">
+            <?= $block->getChildHtml('pager') ?>
+
+            <table class="table dashboard-table__table">
+                <thead>
+                    <tr>
+                        <th scope="col" class="col balance">
+                            <?= __('Balance'); ?>
+                        </th>
+
+                        <th scope="col" class="col amount">
+                            <?= __('Amount'); ?>
+                        </th>
+
+                        <th scope="col" class="col points">
+                            <?= __('Points'); ?>
+                        </th>
+
+                        <th scope="col" class="col reason">
+                            <?= __('Reason'); ?>
+                        </th>
+
+                        <th scope="col" class="col date">
+                            <?= __('Date'); ?>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <?php foreach ($history as $item): ?>
+                        <tr>
+                            <td data-th="<?= $block->escapeHtml(__('Balance')); ?>" class="col balance">
+                                <?= $block->getPointsBalance($item) ?>
+                            </td>
+
+                            <td data-th="<?= $block->escapeHtml(__('Amount')); ?>" class="col amount">
+                                <?= $block->getCurrencyBalance($item) ?>
+                            </td>
+
+                            <td data-th="<?= $block->escapeHtml(__('Points')); ?>" class="col points">
+                                <?= $block->getPointsDelta($item) ?>
+                            </td>
+
+                            <td data-th="<?= $block->escapeHtml(__('Reason')); ?>" class="col reason">
+                                <?= $block->escapeHtml($block->getMessage($item)) ?>
+
+                                <?php if ($explanation = $block->getExplanation($item)): ?>
+                                    <small>
+                                        <?= $block->escapeHtml($explanation); ?>
+                                    </small>
+                                <?php endif;?>
+                            </td>
+
+                            <td data-th="<?= $block->escapeHtml(__('Date')); ?>" class="col date">
+                                <span class="datetime">
+                                    <?= $block->getDate($item) ?>
+                                </span>
+
+                                <?php if ($expirationDate = $block->getExpirationDate($item)): ?>
+                                    <small>
+                                        <?= __('Expires on %1', $expirationDate); ?>
+                                    </small>
+                                <?php endif; ?>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+
+            <?= $block->getChildHtml('pager') ?>
+        </div>
+    <?php else: ?>
+        <div class="message info empty">
+            <?= __('There is no balance history.') ?>
+        </div>
+    <?php endif; ?>
+</div>

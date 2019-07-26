@@ -1,0 +1,110 @@
+$checkout-progress-bar-item__complete__color                  : $link__color !default;
+$checkout-progress-bar-item-element__width                    : 38px !default;
+$checkout-progress-bar-item-element__height                   : $checkout-progress-bar-item-element__width !default;
+$checkout-progress-bar-item-element-outer-radius__width       : 6px !default;
+$checkout-progress-bar-item-element-inner__width              : $checkout-progress-bar-item-element__width - ($checkout-progress-bar-item-element-outer-radius__width * 2) !default;
+$checkout-progress-bar-item-element-inner__height             : $checkout-progress-bar-item-element-inner__width !default;
+$checkout-progress-bar-item-element-inner__active__line-height: 1 !default;
+
+//
+//  Checkout Progress Bar
+//  _____________________________________________
+
+.opc-progress-bar {
+    margin: 20px 0 20px;
+    padding: 0;
+    counter-reset: i;
+    font-size: 0;
+}
+
+.opc-progress-bar-item {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    font-size: $font-size-large;
+    @include min-screen($screen__m) {
+        width: 185px;
+    }
+
+    &:before { // Horizontal line
+        background: #e4e4e4;
+        top: $checkout-progress-bar-item-element__width / 2;
+        content: '';
+        height: 7px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    &:first-child {
+        &:before {
+            border-radius: 6px 0 0 6px;
+        }
+    }
+
+    &:last-child {
+        &:before {
+            border-radius: 0 6px 6px 0;
+        }
+    }
+
+    & > span {
+        display: inline-block;
+        padding-top: 45px;
+        width: 100%;
+        word-wrap: break-word;
+        color: #e4e4e4;
+        font-weight: 300;
+        font-size: $font-size-base;
+
+        &:before,
+        &:after {
+            background: #e4e4e4;
+            height: $checkout-progress-bar-item-element__height;
+            margin-left: -($checkout-progress-bar-item-element__width / 2);
+            width: $checkout-progress-bar-item-element__width;
+            border-radius: 50%;
+            content: '';
+            left: 50%;
+            position: absolute;
+            top: 0;
+        }
+
+        &:after {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: $white;
+            height: $checkout-progress-bar-item-element-inner__height;
+            margin-left: (-$checkout-progress-bar-item-element-inner__width / 2);
+            top: $checkout-progress-bar-item-element-outer-radius__width;
+            width: $checkout-progress-bar-item-element-inner__width;
+            content: counter(i);
+            counter-increment: i;
+        }
+    }
+
+    &._active {
+        &:before {
+            background: $color-primary;
+        }
+
+        & > span {
+            color: $gray-darkest;
+
+            &:before {
+                background: $color-primary;
+            }
+        }
+    }
+
+    &._complete {
+        cursor: pointer;
+
+        & > span {
+            color: $gray-darkest;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+<?php
+    /* @var $block \Magento\Wishlist\Block\Customer\Wishlist\Item\Column\Cart */
+    /* @var \Magento\Wishlist\Model\Item $item */
+    $item = $block->getItem();
+    $product = $item->getProduct();
+?>
+<?php foreach ($block->getChildNames() as $childName): ?>
+    <?= $block->getLayout()->renderElement($childName, false); ?>
+<?php endforeach; ?>
+
+<?php if ($item->canHaveQty() && $product->isVisibleInSiteVisibility()): ?>
+    <div class="
+        input
+        input--inline
+        wishlist__qty"
+    >
+        <label
+            for="qty[<?= $item->getId() ?>]"
+            class="label wishlist__label"
+        >
+            <?= __('Qty') ?>:
+        </label>
+        <input
+            type="number"
+            data-role="qty"
+            id="qty[<?= $item->getId() ?>]"
+            class="input__field wishlist__field-qty qty"
+            data-validate="{'required-number':true,'validate-greater-than-zero':true}"
+            name="qty[<?= $item->getId() ?>]"
+            value="<?= $block->getAddToCartQty($item) * 1 ?>"
+        />
+    </div>
+<?php endif; ?>
+
+<?php if ($product->isSaleable()): ?>
+    <div class="wishlist__item-actions wishlist__item-actions--to-cart">
+        <button
+            type="button"
+            data-role="tocart"
+            data-post='<?= $block->getItemAddToCartParams($item) ?>'
+            title="<?= __('Add to Cart') ?>"
+            data-item-id="<?= $item->getId() ?>"
+            class="
+                button
+                action__button
+                tocart
+                primary
+                wishlist__button
+            "
+        >
+            <?= __('Add to Cart') ?>
+        </button>
+    </div>
+<?php else: ?>
+    <?php if ($product->getIsSalable()): ?>
+        <p class="available stock" title="<?= __('Availability') ?>">
+            <?= __('In stock') ?>
+        </p>
+    <?php else: ?>
+        <p class="unavailable stock" title="<?= __('Availability') ?>">
+            <?= __('Out of stock') ?>
+        </p>
+    <?php endif; ?>
+<?php endif; ?>

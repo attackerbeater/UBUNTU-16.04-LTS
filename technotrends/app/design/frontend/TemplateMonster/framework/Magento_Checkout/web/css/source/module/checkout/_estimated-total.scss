@@ -1,0 +1,25 @@
+//
+//  Common
+//  _____________________________________________
+
+.opc-estimated-wrapper{
+    @include make-flex();
+    @include justify-content(space-between);
+    margin-bottom: $indent-base;
+
+    .estimated-block span{
+        display: block;
+        @extend .bold;
+    }
+}
+
+//
+//  Desktop
+//  _____________________________________________
+
+@media (min-width: $screen-sm-min + 1) {
+    .opc-estimated-wrapper {
+        display: none;
+    }
+}
+

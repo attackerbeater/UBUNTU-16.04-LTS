@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853685839" stop="1560853686061" version="1.4.0">
+  <name>Magento\Test\Integrity\Layout\HandlesTest</name>
+  <test-cases>
+    <test-case start="1560853685839" stop="1560853685901" status="passed">
+      <name>testHandleDeclarations</name>
+    </test-case>
+    <test-case start="1560853685901" stop="1560853685970" status="passed">
+      <name>testContainerDeclarations</name>
+    </test-case>
+    <test-case start="1560853685970" stop="1560853686061" status="passed">
+      <name>testHeadBlockUsage</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

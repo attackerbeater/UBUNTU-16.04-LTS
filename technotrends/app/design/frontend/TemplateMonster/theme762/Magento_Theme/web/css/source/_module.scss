@@ -1,0 +1,42 @@
+@import '../../../../web/css/source/_variables.scss';
+@import '../../../../../framework/Magento_Theme/web/css/source/_module.scss';
+
+a {
+  color: $primary;
+  transition: .3s ease;
+  &:hover {
+    color: $secondary-1;
+  }
+}
+
+h1, h2, h3, h4, h5, h6,
+.heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
+  a {
+    color: $primary;
+  }
+
+  a:hover {
+    color: $secondary-1;
+  }
+}
+
+@media (max-width: $screen-sm-min - 1){
+
+  .page-layout-3columns,
+  .page-layout-2columns-right,
+  .page-layout-2columns-left{
+    .grid-left,
+    .grid-main{
+      @include flex-basis(100%);
+    }.grid-main{
+       @include order(1);
+     }
+    .grid-left{
+      @include order(2);
+    }
+    .grid-right{
+      @include order(3);
+    }
+
+  }
+}

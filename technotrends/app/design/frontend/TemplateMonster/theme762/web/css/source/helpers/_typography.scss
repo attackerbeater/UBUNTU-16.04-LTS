@@ -1,0 +1,13 @@
+
+
+@import '../../../../../framework/web/css/source/helpers/_typography.scss';
+
+
+
+@for $i from 1 through 6{
+  h#{$i},
+  .heading-#{$i}{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+}

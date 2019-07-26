@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Custom\Module\Api\ModelRepositoryInterface"
+                type="Custom\Module\Model\ModelRepository" />
+    <preference for="Custom\Module\Api\Data\ModelInterface"
+                type="Custom\Module\Model\Model" />
+    <preference for="Custom\Module\Api\Data\ModelSearchResultsInterface"
+                type="Custom\Module\Model\ModelSearchResults" />
+</config>

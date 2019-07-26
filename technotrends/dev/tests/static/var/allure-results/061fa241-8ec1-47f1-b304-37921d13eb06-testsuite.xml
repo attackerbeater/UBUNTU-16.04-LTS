@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853696507" stop="1560853698680" version="1.4.0">
+  <name>Magento\Test\Integrity\ObserverImplementationTest</name>
+  <test-cases>
+    <test-case start="1560853697109" stop="1560853698679" status="failed">
+      <name>testObserverInterfaceImplementation</name>
+      <failure>
+        <message>7 of observers which not implement \Magento\Framework\Event\ObserverInterface: 
+MSP\ReCaptcha\Observer\Adminhtml\ForgotPasswordObserver
+MSP\ReCaptcha\Observer\Adminhtml\LoginObserver
+MSP\ReCaptcha\Observer\Frontend\AjaxLoginObserver
+MSP\ReCaptcha\Observer\Frontend\ContactFormObserver
+MSP\ReCaptcha\Observer\Frontend\CreateUserObserver
+MSP\ReCaptcha\Observer\Frontend\ForgotPasswordObserver
+MSP\ReCaptcha\Observer\Frontend\LoginObserver</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ObserverImplementationTest.php(48): PHPUnit\Framework\Assert::fail('7 of observers ...')
+#1 [internal function]: Magento\Test\Integrity\ObserverImplementationTest-&gt;testObserverInterfaceImplementation()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\ObserverImplementationTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\ObserverImplementationTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1560853698679" stop="1560853698680" status="broken">
+      <name>testObserverHasNoExtraPublicMethods</name>
+      <failure>
+        <message>Class MSP\ReCaptcha\Observer\Adminhtml\ForgotPasswordObserver does not exist</message>
+        <stack-trace>#0 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\ObserverImplementationTest))
+#1 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#8 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

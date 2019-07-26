@@ -1,0 +1,40 @@
+@import "../../../../../../web/css/source/components/_modals.scss";
+
+//
+//  Local Variables
+//  _____________________________________________
+
+//
+//  Common
+//  _____________________________________________
+
+.opc-progress-bar{
+    margin-bottom: $indent-base;
+    .opc-progress-bar-item{
+        font-size: $default-font-size + 2;
+        line-height: $default-line-height + 4;
+        opacity: 0.5;
+        &::before{
+            font-family: $fa;
+            content: '\f1db';
+            padding-right: 5px;
+        }
+       &._active{
+            opacity: 1;
+            &::before{
+                content: '\f192';
+            }
+        }
+
+        &._complete{
+            opacity: 1;
+            &::before{
+                content: '\f00c';
+            }
+        }
+   }
+}
+
+//
+//  Desktop
+//  _____________________________________________

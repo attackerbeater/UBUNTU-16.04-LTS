@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853632978" stop="1560853654280" version="1.4.0">
+  <name>Magento\Test\Integrity\ClassesTest</name>
+  <test-cases>
+    <test-case start="1560853632978" stop="1560853635921" status="failed">
+      <name>testPhpFiles</name>
+      <failure>
+        <message>Passed: 15311, Failed: 5, Incomplete: 0, Skipped: 0.
+Data set: app/design/frontend/Snowdog/alpaca/Magento_Invitation/templates/form.phtml
+Files not found for following usages in /var/www/html/technotrends/app/design/frontend/Snowdog/alpaca/Magento_Invitation/templates/form.phtml:
+\Magento\Invitation\Helper\Data
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:219
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:94
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:102
+
+Data set: app/design/frontend/Snowdog/alpaca/Magento_Invitation/templates/list.phtml
+Files not found for following usages in /var/www/html/technotrends/app/design/frontend/Snowdog/alpaca/Magento_Invitation/templates/list.phtml:
+\Magento\Invitation\Helper\Data
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:219
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:94
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:102
+
+Data set: app/design/frontend/Snowdog/alpaca/Snowdog_SolrNavigation/templates/grid.phtml
+Files not found for following usages in /var/www/html/technotrends/app/design/frontend/Snowdog/alpaca/Snowdog_SolrNavigation/templates/grid.phtml:
+\Snowdog\SolrNavigation\Helper\Data
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:219
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:94
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:102
+
+Data set: app/design/frontend/Snowdog/alpaca/Snowdog_SolrNavigation/templates/list.phtml
+Files not found for following usages in /var/www/html/technotrends/app/design/frontend/Snowdog/alpaca/Snowdog_SolrNavigation/templates/list.phtml:
+\Snowdog\SolrNavigation\Helper\Data
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:219
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:94
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:102
+
+Data set: app/design/frontend/Snowdog/alpaca/Magento_Reward/templates/customer/reward/info.phtml
+Files not found for following usages in /var/www/html/technotrends/app/design/frontend/Snowdog/alpaca/Magento_Reward/templates/customer/reward/info.phtml:
+\Magento\Reward\Helper\Data
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:219
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:94
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:102
+</message>
+        <stack-trace>#0 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(115): PHPUnit\Framework\Assert::fail('Passed: 15311, ...')
+#1 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(70): Magento\Framework\App\Utility\AggregateInvoker-&gt;processResults(Array, 15311)
+#2 /var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php(102): Magento\Framework\App\Utility\AggregateInvoker-&gt;__invoke(Object(Closure), Array)
+#3 [internal function]: Magento\Test\Integrity\ClassesTest-&gt;testPhpFiles()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\ClassesTest), Array)
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\ClassesTest))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#13 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#14 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#15 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1560853635921" stop="1560853636785" status="passed">
+      <name>testConfigFiles</name>
+    </test-case>
+    <test-case start="1560853636785" stop="1560853638671" status="passed">
+      <name>testLayoutFiles</name>
+    </test-case>
+    <test-case start="1560853638672" stop="1560853646080" status="failed">
+      <name>testClassNamespaces</name>
+      <failure>
+        <message>Passed: 24641, Failed: 2, Incomplete: 0, Skipped: 0.
+Data set: app/code/Magento/TestModuleExtensionAttributes/Model/FakeAttributeMetadata.php
+Location of /var/www/html/technotrends/app/code/Magento/TestModuleExtensionAttributes/Model/FakeAttributeMetadata.php does not match formal namespace: Magento\TestModuleExtensionAttributes\Model
+
+Failed asserting that two strings are equal.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:299
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:256
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:258
+
+Data set: app/code/Magento/TestModuleExtensionAttributes/Model/FakeCustomer.php
+Location of /var/www/html/technotrends/app/code/Magento/TestModuleExtensionAttributes/Model/FakeCustomer.php does not match formal namespace: Magento\TestModuleExtensionAttributes\Model
+
+Failed asserting that two strings are equal.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:299
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:256
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php:258
+</message>
+        <stack-trace>#0 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(115): PHPUnit\Framework\Assert::fail('Passed: 24641, ...')
+#1 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(70): Magento\Framework\App\Utility\AggregateInvoker-&gt;processResults(Array, 24641)
+#2 /var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ClassesTest.php(258): Magento\Framework\App\Utility\AggregateInvoker-&gt;__invoke(Object(Closure), Array)
+#3 [internal function]: Magento\Test\Integrity\ClassesTest-&gt;testClassNamespaces()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\ClassesTest), Array)
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\ClassesTest))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#13 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#14 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#15 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1560853646080" stop="1560853652778" status="passed">
+      <name>testClassReferences</name>
+    </test-case>
+    <test-case start="1560853652778" stop="1560853654280" status="passed">
+      <name>testCoversAnnotation</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

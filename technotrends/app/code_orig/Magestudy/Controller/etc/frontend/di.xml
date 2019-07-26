@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<!--
+  <type name="Magento\Framework\Session\Storage">
+    <arguments>
+      <argument name="namespace" xsi:type="string">developer</argument>
+    </arguments>
+  </type> -->
+
+  <virtualType name="storage" type="Magento\Framework\Session\Storage">
+    <arguments>
+        <argument name="namespace" xsi:type="string">developer</argument>
+    </arguments>
+  </virtualType>
+  <type name="Magento\Framework\Session\Generic">
+    <arguments>
+        <argument name="storage" xsi:type="object">storage</argument>
+    </arguments>
+  </type>
+
+
+  <virtualType name="MyVirtualType" type="Magestudy\Controller\Model\Template">
+    <arguments>
+      <argument name="template" xsi:type="string">AdminLTE</argument>
+    </arguments>
+  </virtualType>
+  <type name="Magestudy\Controller\Model\Template2">
+    <arguments>
+      <argument name="template" xsi:type="object">MyVirtualType</argument>
+    </arguments>
+  </type>
+
+  <!-- <type name="Magestudy\Controller\Model\Class1">
+    <arguments>
+         <argument name="argOfClass1" xsi:type="object">Magestudy\Controller\Model\Class5</argument>
+    </arguments>
+  </type> -->
+
+
+  <!-- <virtualType name="Magestudy\Controller\Model\Class5" type="Magestudy\Controller\Model\Class2">
+    <arguments>
+        <argument name="argOfClass2" xsi:type="string">Magestudy\Controller\Model\Class4</argument>
+    </arguments>
+  </virtualType>
+  <type name="Magestudy\Controller\Model\Class1">
+      <arguments>
+           <argument name="argOfClass1" xsi:type="object">Magestudy\Controller\Model\Class5</argument>
+      </arguments>
+  </type> -->
+
+
+  <!-- <virtualType name="customOrderGridCollection" type="Magento\Sales\Model\ResourceModel\Order\Grid\Collection">
+    <arguments>
+        <argument name="resourceModel" xsi:type="string">some_thing_here</argument>
+    </arguments>
+  </virtualType>
+  <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+    <arguments>
+      <argument name="collections" xsi:type="array">
+        <item name="sales_order_grid_data_source" xsi:type="string">customOrderGridCollection</item>
+      </argument>
+    </arguments>
+  </type> -->
+
+
+<!--
+  <type name="Magestudy\Controller\Model\Pencil">
+     <arguments>
+         <argument name="color" xsi:type="object">Magestudy\Controller\Model\Red</argument>
+     </arguments>
+  </type> -->
+</config>

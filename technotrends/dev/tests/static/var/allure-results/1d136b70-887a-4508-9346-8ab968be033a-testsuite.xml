@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853686143" stop="1560853686158" version="1.4.0">
+  <name>Magento\Test\Integrity\Layout\ThemeHandlesTest</name>
+  <test-cases>
+    <test-case start="1560853686143" stop="1560853686158" status="failed">
+      <name>testIsDesignHandleDeclaredInCode</name>
+      <failure>
+        <message>Passed: 21, Failed: 3, Incomplete: 0, Skipped: 0.
+Data set: magento_giftregistry_index_edit
+Handle 'magento_giftregistry_index_edit' is not declared in any module.'
+Failed asserting that an array contains 'magento_giftregistry_index_edit'.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/ThemeHandlesTest.php:30
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/ThemeHandlesTest.php:33
+
+Data set: snownav_catalog_view
+Handle 'snownav_catalog_view' is not declared in any module.'
+Failed asserting that an array contains 'snownav_catalog_view'.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/ThemeHandlesTest.php:30
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/ThemeHandlesTest.php:33
+
+Data set: snownav_search_view
+Handle 'snownav_search_view' is not declared in any module.'
+Failed asserting that an array contains 'snownav_search_view'.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/ThemeHandlesTest.php:30
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/ThemeHandlesTest.php:33
+</message>
+        <stack-trace>#0 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(115): PHPUnit\Framework\Assert::fail('Passed: 21, Fai...')
+#1 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(70): Magento\Framework\App\Utility\AggregateInvoker-&gt;processResults(Array, 21)
+#2 /var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/Layout/ThemeHandlesTest.php(33): Magento\Framework\App\Utility\AggregateInvoker-&gt;__invoke(Object(Closure), Array)
+#3 [internal function]: Magento\Test\Integrity\Layout\ThemeHandlesTest-&gt;testIsDesignHandleDeclaredInCode()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\Layout\ThemeHandlesTest), Array)
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\Layout\ThemeHandlesTest))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#13 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#14 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#15 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

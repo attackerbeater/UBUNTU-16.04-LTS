@@ -1,0 +1,133 @@
+<div class="block contact-us-modal" id="contact-us-modal" style="display:none;">
+    <div class="block-title form-heading">
+        <h5 class="block-contact-us-heading" role="heading" aria-level="2"><?= $block->escapeHtml(__('Contact Us')) ?></h5>
+    </div>
+    <div class="block-content" aria-labelledby="block-contact-us-heading">
+        <form class="form contact-us"
+              action="<?= $block->escapeUrl($block->getFormAction()) ?>"
+              id="contact-form"
+              method="post"
+              data-hasrequired="<?= $block->escapeHtmlAttr(__('* Required Fields')) ?>"
+              data-mage-init='{"validation":{}}'>
+            <fieldset class="fieldset">
+                <div class="field firstname required">
+                    <label class="label" for="name"><span><?= $block->escapeHtml(__('First Name')) ?></span></label>
+                    <div class="control">
+                        <input name="firstname" id="firstname" title="<?= $block->escapeHtmlAttr(__('First Name')) ?>" value="<?= $block->escapeHtmlAttr($this->helper('Magento\Contact\Helper\Data')->getPostValue('name') ?: $this->helper('Magento\Contact\Helper\Data')->getUserName()) ?>" class="input-text" type="text" data-validate="{required:true}"/>
+                    </div>
+                </div>
+                <div class="field lastname required">
+                    <label class="label" for="name"><span><?= $block->escapeHtml(__('Last Name')) ?></span></label>
+                    <div class="control">
+                        <input name="lastname" id="lastname" title="<?= $block->escapeHtmlAttr(__('Last Name')) ?>" value="<?= $block->escapeHtmlAttr($this->helper('Magento\Contact\Helper\Data')->getPostValue('name') ?: $this->helper('Magento\Contact\Helper\Data')->getUserName()) ?>" class="input-text" type="text" data-validate="{required:true}"/>
+                    </div>
+                </div>
+                <div class="field email required">
+                    <label class="label" for="email"><span><?= $block->escapeHtml(__('Email')) ?></span></label>
+                    <div class="control">
+                        <input name="email" id="email" title="<?= $block->escapeHtmlAttr(__('Email')) ?>" value="<?= $block->escapeHtmlAttr($this->helper('Magento\Contact\Helper\Data')->getPostValue('email') ?: $this->helper('Magento\Contact\Helper\Data')->getUserEmail()) ?>" class="input-text" type="email" data-validate="{required:true, 'validate-email':true}"/>
+                    </div>
+                </div>
+                <div class="field order">
+                    <label class="label" for="order"><span><?= $block->escapeHtml(__('Order Number')) ?></span></label>
+                    <div class="control">
+                        <input name="order" id="order" title="<?= $block->escapeHtmlAttr(__('Order Number')) ?>" value="<?= $block->escapeHtmlAttr($this->helper('Magento\Contact\Helper\Data')->getPostValue('telephone')) ?>" class="input-text" type="text" />
+                    </div>
+                </div>
+                <div class="field comment required">
+                    <label class="label" for="comment"><span><?= $block->escapeHtml(__('Message')) ?></span></label>
+                    <div class="control">
+                        <textarea name="comment" id="comment" title="<?= $block->escapeHtmlAttr(__('Message')) ?>" class="input-text" cols="5" rows="6" data-validate="{required:true}"><?= $block->escapeHtml($this->helper('Magento\Contact\Helper\Data')->getPostValue('comment')) ?></textarea>
+                    </div>
+                </div>
+                <?= $block->getChildHtml('form.additional.info') ?>
+            </fieldset>
+            <div class="actions-toolbar">
+                <div class="primary">
+                    <input type="hidden" name="hideit" id="hideit" value="" />
+                    <button type="submit" title="<?= $block->escapeHtmlAttr(__('Submit')) ?>" class="action submit primary contact-submit">
+                        <span><?= $block->escapeHtml(__('Submit')) ?></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+        <p class="contact-us-required">* Required</p>
+    </div>
+</div>
+
+<script>
+    require(
+
+        [
+            'jquery',
+            'Magento_Ui/js/modal/modal'
+        ],
+        function (
+            $,
+            modal
+        ) {
+            var options = {
+                type: 'popup',
+                responsive: true,
+                innerScroll: true,
+                modalClass: 'contact-us-modal',
+                buttons: false
+            };
+
+            var footerElem = $('.footer-links');
+            var contactusLink = footerElem.find('#contact-us');
+
+            contactusLink.click(function(e){
+                e.preventDefault(e);
+            });
+
+            modal(options, $('#contact-us-modal'));
+
+            var popup = '';
+            $("#contact-us").on('click', function () {
+                popup = $('#contact-us-modal').modal("openModal");
+            });
+
+        }
+    );
+
+</script>
+
+<script>
+    require([
+        'jquery',
+        'mage/mage'
+    ], function ($) {
+        var dataForm = $('#contact-form');
+        dataForm.mage('validation', {});
+
+        $('.contact-submit').on('click', function () {
+            if (dataForm.validation('isValid')) {
+                var formData = new FormData();
+                $.ajax({
+                    url: '<?php echo $this->getUrl('contactus/modal/ajaxcontact'); ?>',
+                    data: formData,
+                    processData: false,
+                    contentType: "application/json",
+                    showLoader: true,
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function (response) {
+                        if (!response.errors) {
+                            if (response.redirectUrl) {
+                                location.href = response.redirectUrl;
+                            }
+                        } else {
+                            $(' .contact-us .messages .message div').text(response.message);
+                            $(' .contact-us .messages .message').show();
+                            setTimeout(function () {
+                                $('.contact-us .messages .message').hide();
+                            }, 5000);
+                        }
+                    }
+                });
+                return false;
+            }
+        })
+    });
+</script>

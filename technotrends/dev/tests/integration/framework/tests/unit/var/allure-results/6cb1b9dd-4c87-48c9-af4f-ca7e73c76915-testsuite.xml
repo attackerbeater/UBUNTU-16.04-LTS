@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610874" stop="1560853610904" version="1.4.0">
+  <name>Magento\Test\ObjectManagerTest</name>
+  <test-cases>
+    <test-case start="1560853610874" stop="1560853610896" status="passed">
+      <name>testInstancePersistingAfterClearCache</name>
+    </test-case>
+    <test-case start="1560853610896" stop="1560853610897" status="passed">
+      <name>testInstanceDestroyingAfterClearCache</name>
+    </test-case>
+    <test-case start="1560853610898" stop="1560853610901" status="passed">
+      <name>testInstanceRecreatingAfterClearCache</name>
+    </test-case>
+    <test-case start="1560853610901" stop="1560853610904" status="passed">
+      <name>testIsEmptyMappedTableNamesAfterClearCache</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,78 @@
+/*
+* @section      Footer
+* @description  This section holds specific style for Footer
+*/
+
+
+#footer-col-wrapper{
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #999999;
+  margin-bottom: 20px;
+  @media (min-width: $screen-sm-min){
+    margin-bottom: 55px;
+  }
+  h4{
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $secondary-2;
+    @media (min-width: $screen-sm-min){
+      margin-bottom: 40px;
+    }
+  }
+  .footer-col-content{
+    padding: 0;
+    li{
+      margin-bottom: 5px;
+      @media (min-width: $screen-md-min){
+        margin-bottom: 15px;
+      }
+    }
+    a{
+      color: $primary;
+      &:hover{
+        color: $secondary-3;
+      }
+    }
+  }
+  .footer-contacts{
+    address,
+    span,
+    a.footer-contacts--mail{
+      margin-bottom: 5px;
+      display: inline-block;
+      @media (min-width: $screen-sm-min){
+        margin-bottom: 15px;
+      }
+    }
+    span{
+      width: 100%;
+      display: inline-block;
+    }
+    a{
+      color: $primary;
+      &:hover{
+        color: inherit;
+      }
+    }
+    .foooter-contacts--tel a{
+      color: inherit;
+      &:hover{
+        color: $primary;
+      }
+    }
+  }
+}
+
+.page-footer__content{
+  margin-bottom: 3rem;
+  small.copyright{
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    font-weight: 300;
+  }
+}

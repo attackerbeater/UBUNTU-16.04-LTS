@@ -1,0 +1,19 @@
+<script type="text/x-magento-init">
+{
+  "*" : {
+      "Magento_Ui/js/core/app" : {
+        "components" : {
+          "index_container": {
+            "component": "AcmeWidgets_Knockout/js/index",
+            "div1Content" : "<?=$block->getDiv1Content()?>"
+          }
+        }
+      }
+  }
+}
+</script>
+
+<div class="col-md-12" data-bind="scope: 'index_container'">
+  <div data-bind="text: div1">Test</div>
+
+</div>

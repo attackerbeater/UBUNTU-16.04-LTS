@@ -1,0 +1,191 @@
+
+//
+//  Toolbar
+//  ---------------------------------------------
+
+.toolbar-products {
+    @include make-flex();
+    @include justify-content(space-between);
+    @include flex-wrap(wrap);
+    margin-bottom: $indent-base;
+
+    .field{
+        >.label,
+        >.control,
+        >.action{
+            display: inline-block;
+        }
+        >.label{
+            width: 30%;
+        }
+        >.control{
+            width: 40%;
+        }
+    }
+
+    .toolbar-amount{
+        @include flex-basis(50%);
+        @include order(2);
+    }
+
+    .modes {
+        @include flex-basis(25%);
+        @include order(1);
+    }
+
+    .pages {
+        @include flex-basis(25%);
+        @include order(3);
+    }
+
+    .limiter {
+        @include flex-basis(100%);
+        @include order(4);
+    }
+
+    .toolbar-sorter {
+        @include flex-basis(100%);
+        @include order(5);
+    }
+}
+
+.toolbar-container{
+    .filter-toggle{
+        @include button-block();
+        margin-bottom: 20px;
+        display: none;
+    }
+
+}
+
+// Modes
+.modes{
+    margin: 0 -$input-padding-hor/2;
+    .modes-label{
+        display: none;
+    }
+    .modes-mode{ // a or strong
+        span{
+            display: none;
+        }
+        &.active{
+            color: $link-alt;
+            &:hover{
+                color: inherit;
+            }
+        }
+        &:hover{
+            color: $link-hover;
+        }
+    }
+    .mode-grid{
+        span{}
+    }
+    .mode-list{
+        span{}
+    }
+}
+
+//Amount
+.toolbar-amount{
+    text-align: center;
+    .toolbar-number{}
+
+}
+
+//Pages
+.pages{
+    text-align: right;
+    position: relative;
+    &:hover{
+        .pages-items{
+            display: block;
+        }
+    }
+    .pages-label{
+        cursor: pointer;
+    }
+    .pages-items{
+        display: none;
+        position: absolute;
+        top: $input-height;
+        right: 0;
+        background: darken($white, 5%);
+        padding: $indent-small;
+        z-index: 5;
+        width: 290px;
+        &:before{
+            position: absolute;
+            height: 0;
+            width: 0;
+            right: .5rem;
+            top: -.5rem;
+            border: transparent;
+            border-left: .5rem solid transparent;
+            border-right: .5rem solid transparent;
+            border-bottom: .5rem solid darken($white, 5%);
+            content: '';
+        }
+    }
+    .item{
+        .page{
+            &:hover{
+                color: $link-hover;
+            }
+        }
+        .label{}
+        &.current{
+            .page{}
+            .label{
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+//Limiter
+.limiter{
+    .label{}
+    .limiter{}
+    .limiter-text{
+        display: none;
+    }
+}
+
+//Sorter
+.toolbar-sorter{
+    text-align: right;
+    .label{
+        text-align: left;
+    }
+    .sorter-action{
+        margin-left: $indent-small;
+        padding: $input-padding-vert 0;
+        line-height: $input-height;
+        span{
+            display: none;
+        }
+    }
+}
+
+@media (min-width: $screen-sm-min) {
+    .toolbar-products{
+        .field{
+            >.label{
+                width: 20%;
+            }
+            >.control{
+                width: auto;
+            }
+        }
+        //Limiter
+        .limiter{
+            @include flex-basis(50%);
+        }
+        //Sorter
+        .toolbar-sorter{
+            @include flex-basis(50%);
+        }
+    }
+
+}

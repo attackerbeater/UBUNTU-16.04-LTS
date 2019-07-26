@@ -1,0 +1,36 @@
+//
+//  Variables
+//  _____________________________________________
+
+// Global variables
+@import 'variables/global';
+@import 'variables/colors';
+@import 'variables/typography';
+@import 'variables/actions-toolbar';
+@import 'variables/icons';
+@import 'variables/typography';
+@import 'variables/layout';
+@import 'variables/messages';
+@import 'variables/responsive';
+@import 'variables/sections';
+@import 'variables/structure';
+@import 'variables/tables';
+
+//
+//  Global lib
+//  _____________________________________________
+
+@import 'actions-toolbar';
+@import 'buttons';
+@import 'dropdowns';
+@import 'forms';
+@import 'grids';
+@import 'layout';
+@import 'loaders';
+@import 'popups';
+@import 'resets';
+@import 'sections';
+@import 'tables';
+@import 'tooltips';
+@import 'typography';
+@import 'utilities';

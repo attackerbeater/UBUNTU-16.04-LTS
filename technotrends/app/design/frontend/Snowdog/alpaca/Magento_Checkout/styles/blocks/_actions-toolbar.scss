@@ -1,0 +1,28 @@
+.actions-toolbar {
+    > .secondary {
+        text-align: center;
+
+        .action {
+            margin-bottom: $indent__s;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        margin-bottom: $indent__s;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@include min-screen($screen__m) {
+    form {
+        .actions-toolbar {
+            .column:not(.sidebar-additional) &,
+            .column:not(.sidebar-main) & {
+                @extend .abs-margin-for-forms-desktop;
+            }
+        }
+    }
+}

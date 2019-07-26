@@ -1,0 +1,14 @@
+<?php
+// @codingStandardsIgnoreFile
+
+ /** @var \Magento\CatalogSearch\Helper\Data $helper */
+$helper = $this->helper('Magento\CatalogSearch\Helper\Data');
+?>
+<div class="search__advanced">
+    <a class="action advanced"
+       href="<?= $helper->getAdvancedSearchUrl(); ?>"
+       data-action="advanced-search"
+    >
+        <?= __('Advanced Search'); ?>
+    </a>
+</div>

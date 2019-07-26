@@ -1,0 +1,41 @@
+/*
+* @subsection   Typography
+*/
+
+h1, .heading-1 {
+    font-size: 2rem;
+
+    @media (min-width: $screen-sm-min) {}
+}
+
+h2, .heading-2 {
+    font-size: 1.5rem;
+
+    @media (min-width: $screen-sm-min) {}
+}
+
+h3, .heading-3 {
+    font-size: 1.17rem;
+    line-height: $indent-base;
+
+    @media (min-width: $screen-sm-min) {}
+}
+
+h4, .heading-4 {
+    font-size: 1rem;
+    font-weight: 600;
+
+    @media (min-width: $screen-sm-min) {}
+}
+
+h5, .heading-5 {
+    font-size: .83rem;
+
+    @media (min-width: $screen-sm-min) {}
+}
+
+h6, .heading-6 {
+    font-size: .67rem;
+
+    @media (min-width: $screen-sm-min) {}
+}

@@ -1,0 +1,10 @@
+<div id="testlayout" data-bind="scope: 'testlayout'">
+  <!-- ko template: getTemplate() --><!-- /ko -->
+  <script type="text/x-magento-init">
+  {
+    "#testlayout" : {
+      "Magento_Ui/js/core/app": <?php /* @escapeNotVerified */ echo $block->getJsLayout();?>
+    }
+  }
+  </script>
+</div>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package Divante\rapid
+ * @author Bartosz Picho <bpicho@divante.pl>
+ * @copyright 2017 Divante Sp. z o.o.
+ * @license See LICENSE_DIVANTE.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_img_width" xsi:type="number">100</argument>
+            <!--     <argument name="logo_img_height" xsi:type="number">auto</argument> -->
+            </arguments>
+        </referenceBlock>
+        <!-- customize by john junsay -->
+
+        <!-- <referenceContainer name="main.content" htmlTag="main" htmlClass="page-main-full-width" /> -->
+
+        <referenceContainer name="header.panel">
+            <!-- add container left -->
+            <container name="header.panel.left" as="header-panel-left" label="Header Panel Left" htmlTag="div" htmlClass="header panel left" />
+            <!-- add container right -->
+            <container name="header.panel.right" as="header-panel-right" label="Header Panel Right" htmlTag="div" htmlClass="header panel right" />
+        </referenceContainer>
+
+        <!-- move to header panel left  -->
+        <move element="top.links" destination="header.panel.left" />
+        <move element="skip_to_content" destination="header.panel.left" />
+
+        <!-- move to header panel right  -->
+        <move element="top.search" destination="header.panel.right" as="search" />
+        <move element="minicart" destination="header.panel.right" after="top.search"/> 
+        
+        <referenceContainer name="header.container">
+            <container name="header.container.main" as="header_container_left" label="Page Header Container Main"  htmlTag="div" htmlClass="header container main" after="header.panel.wrapper"/>                
+        </referenceContainer>
+
+        <referenceContainer name="header.container.main">
+            <container name="header.container.left" as="header_container_left" label="Page Header Container Left"  htmlTag="div" htmlClass="header container left" after="header.panel.wrapper"/>
+
+            <container name="header.container.right" as="header_container_right" label="Page Header Container Right"  htmlTag="div" htmlClass="header container right" after="header.panel.wrapper"/>
+        </referenceContainer>
+        
+        <move element="logo" destination="header.container.left" />
+        <move element="navigation.sections" destination="header.container.right" />
+       
+<!-- 
+        <referenceContainer name="page.wrapper">
+            <container name="header.banner.slider" as="header_banner_slider" label="Header Banner Slider" htmlTag="div" htmlClass="header banner slider full-width" before="main.content" />
+        </referenceContainer>
+ -->
+                
+        <!-- <move element="navigation.sections" destination="header.container" after="-"/> -->
+        <move element="page.messages" destination="main" before="-"/>
+        <move element="form.subscribe" destination="footer-container" before="-"/>
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceBlock name="report.bugs" remove="true"/>
+        <referenceContainer name="footer">
+            <block class="Magento\Framework\View\Element\Template" name="footer.columns"
+                   template="Magento_Theme::html/footer/columns.phtml">
+                <block class="Magento\Cms\Block\Block" name="custom-footer">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">custom-footer</argument>
+                    </arguments>
+                </block>
+            </block>
+        </referenceContainer>
+        <move element="copyright" destination="footer-container" after="-"/>
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Framework\View\Element\Template" name="rapid.image"
+                   template="Magento_Theme::rapid.phtml" />
+        </referenceContainer>
+
+   <!--      <referenceContainer name="header.panel">
+            <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
+                <arguments>
+                    <argument name="css_class" xsi:type="string">header links</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_img_width" xsi:type="number">148</argument>
+                <argument name="logo_img_height" xsi:type="number">43</argument>
+            </arguments>
+        </referenceBlock>
+        <referenceContainer name="footer">
+            <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml"/>
+        </referenceContainer>
+        <referenceBlock name="report.bugs" remove="true"/>
+        <move element="copyright" destination="before.body.end"/> -->
+    </body>
+</page>

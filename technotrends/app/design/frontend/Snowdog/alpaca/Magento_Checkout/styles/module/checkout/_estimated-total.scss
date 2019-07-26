@@ -1,0 +1,44 @@
+.estimated-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f4f4f4;
+    margin-bottom: 20px;
+
+    @include min-screen($screen__m) {
+        display: none;
+    }
+
+    &__price {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+
+    &__trigger {
+        display: flex;
+    }
+
+    &__trigger-button {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    &__counter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3px;
+        border-radius: 5px;
+        background-color: #ff5501;
+        color: $white;
+    }
+}
+
+
+.opc-estimated-wrapper {
+    @include min-screen($screen__m) {
+        display: none;
+    }
+}

@@ -1,0 +1,2446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853654313" stop="1560853673907" version="1.4.0">
+  <name>Magento\Test\Integrity\ComposerTest</name>
+  <test-cases>
+    <test-case start="1560853654717" stop="1560853673907" status="failed">
+      <name>testValidComposerJson</name>
+      <failure>
+        <message>Passed: 0, Failed: 272, Incomplete: 0, Skipped: 0.
+Data set: /var/www/html/technotrends/vendor/magento/module-authorization
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-customer
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-require-js
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-backend
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sales-sequence
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-bundle
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sales
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-checkout
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-captcha
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-wishlist
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-indexer
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-cms
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-email
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-config
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-directory
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-store
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-eav
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-integration
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-user
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-theme
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-inventory
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-variable
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-widget
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-media-storage
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-downloadable
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-newsletter
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-review
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-reports
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-page-cache
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-tax
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-quote
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-payment
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-sales-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-catalog-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-configuration-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-contact
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-shipping
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-search
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-vault
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-multi-dimensional-indexer-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-reservations-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-source-deduction-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sales-inventory
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-sales
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-rule
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-indexer
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-search
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-msrp
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-instant-purchase
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-source-selection-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-rule
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-configurable-product
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-grouped-product
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-paypal
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-developer
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-url-rewrite
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-asynchronous-operations
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-cron
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/amzn/amazon-pay-and-login-with-amazon-core-module
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/klarna/module-core
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-eav-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-low-quantity-notification-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sales-rule
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-advanced-search
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-url-rewrite
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-catalog-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-checkout-agreements
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-product-alert
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-elasticsearch
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-security
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/amzn/login-with-amazon-module
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/klarna/module-ordermanagement
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-cookie
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-customer-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-configuration
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-distance-based-source-selection-api
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-low-quantity-notification
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-send-friend
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-swagger
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-webapi
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-gift-message
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-offline-shipping
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-usps
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-google-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-multishipping
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-robots
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-swatches
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-url-rewrite-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/amzn/amazon-pay-module
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/klarna/module-kp
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-backup
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-cms-url-rewrite
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-deploy
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-bundle-product
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-bundle-product-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-cache
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-catalog
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-catalog-search
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-configurable-product
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-configurable-product-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-configurable-product-indexer
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-distance-based-source-selection
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-distance-based-source-selection-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-elasticsearch
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-grouped-product
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-grouped-product-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-grouped-product-indexer
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-low-quantity-notification-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-product-alert
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-reservations
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-sales-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-sales-frontend-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-setup-fixture-generator
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-shipping
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-shipping-admin-ui
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-inventory-source-selection
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-rss
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-translation
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/vertex/module-tax
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/dotmailer/dotmailer-magento2-extension
+This component is expected to depend on certain PHP version(s)
+Failed asserting that object of class "stdClass" has attribute "php".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:303
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:177
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-admin-notification
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-advanced-pricing-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-amqp
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-authorizenet
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-authorizenet-acceptjs
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-braintree
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-bundle-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-bundle-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-cache-invalidate
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-inventory-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-rule-configurable
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-url-rewrite-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-catalog-widget
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-cms-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-cms-url-rewrite-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-configurable-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-configurable-product-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-configurable-product-sales
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-currency-symbol
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-customer-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-customer-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-dhl
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-directory-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-downloadable-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-downloadable-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-elasticsearch-6
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-encryption-key
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-fedex
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-google-adwords
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-google-optimizer
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-grouped-catalog-inventory
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-grouped-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-grouped-product-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-layered-navigation
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-marketplace
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-message-queue
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-msrp-configurable-product
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-msrp-grouped-product
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-mysql-mq
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-new-relic-reporting
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-offline-payments
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-persistent
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-product-video
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-quote-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-quote-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-release-notification
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-review-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sales-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sales-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sample-data
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-send-friend-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-signifyd
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-sitemap
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-store-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-swagger-webapi
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-swagger-webapi-async
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-swatches-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-swatches-layered-navigation
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-tax-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-tax-import-export
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-theme-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-tinymce-3
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-ups
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-version
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-webapi-async
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-webapi-security
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-weee
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-weee-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-wishlist-analytics
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/module-wishlist-graph-ql
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/msp/recaptcha
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/msp/twofactorauth
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/temando/module-shipping-m2
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:182
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Mageplaza/BannerSlider
+This component is expected to depend on certain PHP version(s)
+Failed asserting that object of class "stdClass" has attribute "php".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:303
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:177
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Mageplaza/Core
+Failed asserting that object of class "stdClass" has attribute "require".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:164
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Widget
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/SystemCustomField
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/LoggerExample
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/HideCustomerMenuItem
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Menu
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/UnitTestExample
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/SimpleCrud
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/LogRepository
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Mixins
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Event
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Customjs
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/ConsoleCommand
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/ProductExtensionAttribute
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/CustomerAccountTab
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Controller
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Rest
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/PluginExample
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/CustomerEditButton
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/CustomerAttribute
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/ConfigExample
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Crud
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/PaymentMethod
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/Page
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/ShippingMethod
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/ExtensionAttributes
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/CronExample
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/CustomerEditTab
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/ProductEditButton
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magestudy/SearchCriteria
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Vmasciotta/OwlCarousel
+This component is expected to depend on magento/framework
+Failed asserting that object of class "stdClass" has attribute "magento/framework".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:316
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:179
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Technotrends/Brand
+Failed asserting that file "/var/www/html/technotrends/app/code/Technotrends/Brand/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Technotrends/PopularBrands
+Failed asserting that file "/var/www/html/technotrends/app/code/Technotrends/PopularBrands/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Technotrends/ResponsiveBanner
+Failed asserting that file "/var/www/html/technotrends/app/code/Technotrends/ResponsiveBanner/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Technotrends/Core
+Failed asserting that file "/var/www/html/technotrends/app/code/Technotrends/Core/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleExtensionAttributes
+Failed asserting that file "/var/www/html/technotrends/app/code/Magento/TestModuleExtensionAttributes/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleSample
+Failed asserting that object of class "stdClass" has attribute "license".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:162
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleWysiwygConfig
+Failed asserting that file "/var/www/html/technotrends/app/code/Magento/TestModuleWysiwygConfig/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleFakePaymentMethod
+Failed asserting that file "/var/www/html/technotrends/app/code/Magento/TestModuleFakePaymentMethod/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleMessageQueueConfigOverride
+Failed asserting that object of class "stdClass" has attribute "license".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:162
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleMessageQueueConfiguration
+Failed asserting that object of class "stdClass" has attribute "license".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:162
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleAsyncAmqp
+Failed asserting that file "/var/www/html/technotrends/app/code/Magento/TestModuleAsyncAmqp/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleSynchronousAmqp
+Failed asserting that file "/var/www/html/technotrends/app/code/Magento/TestModuleSynchronousAmqp/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Magento/TestModuleDirectoryZipCodes
+Failed asserting that file "/var/www/html/technotrends/app/code/Magento/TestModuleDirectoryZipCodes/composer.json" exists.
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:86
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Emizentech/Banner
+Failed asserting that object of class "stdClass" has attribute "require".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:164
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/code/Snowdog/Menu
+This component is expected to depend on certain PHP version(s)
+Failed asserting that object of class "stdClass" has attribute "php".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:303
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:177
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/language-de_de
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:188
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/language-en_us
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:188
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/language-es_es
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:188
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/language-fr_fr
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:188
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/language-nl_nl
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:188
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/language-pt_br
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:188
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/language-zh_hans_cn
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:188
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/theme-frontend-blank
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:196
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/theme-adminhtml-backend
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:196
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/theme-frontend-luma
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:196
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/design/frontend/TemplateMonster/framework
+Failed asserting that 'templatemonster/theme-frontend-framework' matches PCRE pattern "/^magento\/theme-(?:adminhtml|frontend)(\-[a-z0-9_]+)+$/".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:191
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/design/frontend/TemplateMonster/theme762
+Failed asserting that 'templatemonster/theme-frontend-child' matches PCRE pattern "/^magento\/theme-(?:adminhtml|frontend)(\-[a-z0-9_]+)+$/".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:191
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/design/frontend/Divante/rapid
+Failed asserting that 'divante-ltd/theme-frontend-rapid' matches PCRE pattern "/^magento\/theme-(?:adminhtml|frontend)(\-[a-z0-9_]+)+$/".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:191
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/design/frontend/Webgriffe/bootstrap
+Failed asserting that 'webgriffe/theme-frontend-bootstrap' matches PCRE pattern "/^magento\/theme-(?:adminhtml|frontend)(\-[a-z0-9_]+)+$/".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:191
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/app/design/frontend/Snowdog/alpaca
+Failed asserting that 'snowdog/theme-frontend-alpaca' matches PCRE pattern "/^magento\/theme-(?:adminhtml|frontend)(\-[a-z0-9_]+)+$/".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:191
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/framework
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:204
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/framework-bulk
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:204
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/framework-amqp
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:204
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends/vendor/magento/framework-message-queue
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:204
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+
+Data set: /var/www/html/technotrends
+Version must not be specified in the root and package composer JSON files in Git
+Failed asserting that object of class "stdClass" does not have attribute "version".
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:251
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:208
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:91
+/var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php:56
+/var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php:93
+</message>
+        <stack-trace>#0 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(115): PHPUnit\Framework\Assert::fail('Passed: 0, Fail...')
+#1 /var/www/html/technotrends/vendor/magento/framework/App/Utility/AggregateInvoker.php(70): Magento\Framework\App\Utility\AggregateInvoker-&gt;processResults(Array, 0)
+#2 /var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php(93): Magento\Framework\App\Utility\AggregateInvoker-&gt;__invoke(Object(Closure), Array)
+#3 [internal function]: Magento\Test\Integrity\ComposerTest-&gt;testValidComposerJson()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\ComposerTest), Array)
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\ComposerTest))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#13 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#14 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#15 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1560853673907" stop="1560853673907" status="canceled">
+      <name>testComponentPathsInRoot</name>
+      <failure>
+        <message>The root composer.json file doesn't mention any extra component paths information</message>
+        <stack-trace>#0 /var/www/html/technotrends/dev/tests/static/testsuite/Magento/Test/Integrity/ComposerTest.php(417): PHPUnit\Framework\Assert::markTestSkipped('The root compos...')
+#1 [internal function]: Magento\Test\Integrity\ComposerTest-&gt;testComponentPathsInRoot()
+#2 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Test\Integrity\ComposerTest), Array)
+#3 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Test\Integrity\ComposerTest))
+#6 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/technotrends/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/technotrends/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/technotrends/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

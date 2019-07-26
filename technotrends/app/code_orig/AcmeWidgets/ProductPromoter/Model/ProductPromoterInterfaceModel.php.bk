@@ -1,0 +1,42 @@
+<?php
+namespace AcmeWidgets\ProductPromoter\Model;
+
+use Magento\Framework\Model\AbstractExtensibleModel;
+use AcmeWidgets\ProductPromoter\Api\Data\ProductPromoterInterface;
+
+class ProductPromoterInterfaceModel extends AbstractExtensibleModel implements ProductPromoterInterface {
+
+  /**
+   * @return string|null
+   */
+  public function getName()
+  {
+      return $this->getData(self::NAME);
+  }
+
+  /**
+   * @param string $name
+   */
+  public function setName($name)
+  {
+      $this->setData(self::NAME, $name);
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getExtensionAttributes()
+  {
+      return $this->_getExtensionAttributes();
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setExtensionAttributes(
+      \AcmeWidgets\ProductPromoter\Api\Data\ProductPromoterExtensionInterface $extensionAttributes
+  ) {
+      return $this->_setExtensionAttributes($extensionAttributes);
+  }
+
+}

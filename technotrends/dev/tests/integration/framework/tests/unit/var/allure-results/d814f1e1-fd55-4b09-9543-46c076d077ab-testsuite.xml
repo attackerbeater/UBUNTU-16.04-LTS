@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610870" stop="1560853610871" version="1.4.0">
+  <name>Magento\Test\MemoryLimitTest</name>
+  <test-cases>
+    <test-case start="1560853610870" stop="1560853610870" status="passed">
+      <name>testPrintHeader</name>
+    </test-case>
+    <test-case start="1560853610870" stop="1560853610870" status="passed">
+      <name>testPrintStats</name>
+    </test-case>
+    <test-case start="1560853610870" stop="1560853610871" status="passed">
+      <name>testValidateUsage</name>
+    </test-case>
+    <test-case start="1560853610871" stop="1560853610871" status="passed">
+      <name>testValidateUsageException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

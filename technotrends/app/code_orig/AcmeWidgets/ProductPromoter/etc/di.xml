@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="AcmeWidgets\ProductPromoter\Api\ProductPromoterRepositoryInterface"
+    type="AcmeWidgets\ProductPromoter\Model\Repository\ProductPromoterRepository"/>
+  	<preference for="AcmeWidgets\ProductPromoter\Api\Data\ProductPromoterInterface"
+    type="AcmeWidgets\ProductPromoter\Model\ProductPromoter"/>
+
+  	<!-- Add a new field in shipping address form -->
+  	<type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
+		<plugin name="add_shipping_address_field" type="AcmeWidgets\ProductPromoter\Plugin\Block\Checkout\LayoutProcessor" sortOrder="100" />
+  	</type>
+
+  	<type name="Magento\Checkout\Model\ShippingInformationManagement">
+        <plugin name="save_to_quote_table" type="AcmeWidgets\ProductPromoter\Plugin\Quote\SaveToQuote" sortOrder="10" />
+    </type>
+
+</config>

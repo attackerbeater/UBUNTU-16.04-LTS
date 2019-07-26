@@ -1,0 +1,126 @@
+
+//
+//  Fotorama
+//  ---------------------------------------------
+
+
+.gallery-placeholder{
+    .loading-mask{
+        padding: 0 0 50%;
+        position: absolute;
+        display: none;
+    }
+    
+    .fotorama-hidden, 
+    .fotorama--hidden, 
+    .fotorama__load {
+        left: -99999px;
+        position: absolute;
+        top: -99999px;
+        z-index: -1000;
+        display: none;
+    }
+}
+
+.fotorama-item{
+    .fotorama__wrap{
+        display: block;
+        position: relative;
+    }
+    .fotorama__stage{
+        margin-bottom: $indent-small;
+    }
+
+    //Fotorama Nav
+    .fotorama__nav-wrap{}
+    .fotorama__nav{}
+    
+    .fotorama__nav__frame{
+       
+    }
+
+    .fotorama__spinner,
+    .spinner{
+        display: none !important;
+        visibility: hidden;
+    }
+
+    .fotorama__thumb-border{
+        background-image: none;
+    }
+    .fotorama__stage{
+        background-color: $products-bg;
+    }
+    
+    .fotorama__nav__frame--thumb{
+        opacity: 0.4;
+        &.fotorama__active{
+            opacity: 1;
+        }
+
+        .fotorama__thumb{
+            //background-color: $products-bg; 
+        }
+    }
+
+    .fotorama__arr--disabled{
+        opacity: 0;
+        transition: .5s all ease; 
+    }
+    
+    .fotorama__nav-wrap--vertical{
+        .fotorama__thumb__arr--left,
+        .fotorama__thumb__arr--right{
+
+            background-image: none;
+            .fotorama__thumb__arr{
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                border-radius: 50%;
+                background-color: $primary;
+                background-image: none;
+                opacity: 0.7;
+                transform: rotate(0);
+                text-align: center;
+                transition: .3s all ease;
+                
+                &::before{
+                    @include material-icon;
+                    font-size: 38px;
+                    color: #fff;
+                    line-height: 50px;
+                }
+
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
+        .fotorama__thumb__arr--left{
+            top: 20px;
+
+            .fotorama__thumb__arr::before{
+                content: '\e316';
+            }
+        }
+        .fotorama__thumb__arr--right{
+            bottom: 40px;
+
+            .fotorama__thumb__arr::before{
+                content: '\e313';
+            }
+        }
+    }
+    
+     @media (min-width: $screen-sm-min){
+        .fotorama__nav__shaft{
+            margin-top: -30px;
+        }
+    }
+
+    .fotorama__nav__frame{}
+
+    //Magnifier
+    .magnifier-preview{}
+}

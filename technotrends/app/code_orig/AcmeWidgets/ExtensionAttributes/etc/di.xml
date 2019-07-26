@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+      <preference for="AcmeWidgets\ExtensionAttributes\Api\Data\ExtensionAttributesInterface" type="AcmeWidgets\ExtensionAttributes\Model\ExtensionAttributes" />
+
+  <type name="AcmeWidgets\ProductPromoter\Api\ProductPromoterRepositoryInterface">
+    <plugin name="add_extension_attribute_productpromoter" type="AcmeWidgets\ExtensionAttributes\Plugin\ExtensionAttributesRepository" />
+  </type>
+</config>

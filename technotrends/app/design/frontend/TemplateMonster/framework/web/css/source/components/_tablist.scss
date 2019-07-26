@@ -1,0 +1,74 @@
+[role="tablist"]{
+    //Tablist title
+    [role="tab"]{
+        position: relative;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: $indent-small;
+        display: inline-block;
+        padding-right: 1rem;
+        @include font-icon('\f0d7');
+        &[aria-selected="true"]{
+            @include font-icon('\f0d8');
+        }
+        &:before{
+            position: absolute;
+            right: 0;
+            top: 0;
+            line-height: indent;
+        }
+    }
+
+    //Tablist content
+    [role="tabpanel"]{
+        margin-bottom: $indent-base;
+    }
+}
+
+.block[role="tablist"]{
+    .title[role="tab"]{
+        display: block;
+    }
+}
+
+.data.items {
+    position: relative;
+    .tab-titles{
+        margin-bottom: $indent-small;
+    }
+    .title {
+        display: block;
+        margin-right: $indent-small;
+        &.active {
+            a{
+                color: $link-active;
+            }
+        }
+        &:before{
+            display: none;
+        }
+    }
+
+    .content {
+        box-sizing: border-box;
+        float: right;
+        margin-left: -100%;
+        width: 100%;
+        padding-top: $indent-small;
+        display: none;
+        &.active {
+            display: block;
+        }
+        &[role="tabpanel"] {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: $screen-sm-min){
+    .data.items{
+        .title{
+            display: inline-block;
+        }
+    }
+}

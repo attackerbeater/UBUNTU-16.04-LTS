@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1560853610284" stop="1560853610289" version="1.4.0">
+  <name>Magento\TestFramework\Dependency\PhpRuleTest</name>
+  <test-cases>
+    <test-case start="1560853610284" stop="1560853610286" status="passed">
+      <name>testNonPhpGetDependencyInfo</name>
+    </test-case>
+    <test-case start="1560853610286" stop="1560853610286" status="passed">
+      <name>testGetDependencyInfo with data set "Extend class in same module"</name>
+    </test-case>
+    <test-case start="1560853610286" stop="1560853610286" status="passed">
+      <name>testGetDependencyInfo with data set "Extend class in different module"</name>
+    </test-case>
+    <test-case start="1560853610286" stop="1560853610286" status="passed">
+      <name>testGetDependencyInfo with data set "getViewFileUrl in same module"</name>
+    </test-case>
+    <test-case start="1560853610286" stop="1560853610287" status="passed">
+      <name>testGetDependencyInfo with data set "getViewFileUrl in different module"</name>
+    </test-case>
+    <test-case start="1560853610287" stop="1560853610287" status="passed">
+      <name>testGetDependencyInfo with data set "Helper class from same module"</name>
+    </test-case>
+    <test-case start="1560853610287" stop="1560853610287" status="passed">
+      <name>testGetDependencyInfo with data set "Helper class from another module"</name>
+    </test-case>
+    <test-case start="1560853610287" stop="1560853610287" status="passed">
+      <name>testGetDependencyInfo with data set "getUrl from same module"</name>
+    </test-case>
+    <test-case start="1560853610287" stop="1560853610287" status="passed">
+      <name>testGetDependencyInfo with data set "getUrl from another module"</name>
+    </test-case>
+    <test-case start="1560853610287" stop="1560853610287" status="passed">
+      <name>testGetDependencyInfo with data set "getBlock from same module"</name>
+    </test-case>
+    <test-case start="1560853610287" stop="1560853610287" status="passed">
+      <name>testGetDependencyInfo with data set "getBlock from another module"</name>
+    </test-case>
+    <test-case start="1560853610288" stop="1560853610288" status="passed">
+      <name>testGetDependencyInfo with data set "Plugin on class in same module"</name>
+    </test-case>
+    <test-case start="1560853610288" stop="1560853610288" status="passed">
+      <name>testGetDependencyInfo with data set "Plugin depends on arbitrary class in same module"</name>
+    </test-case>
+    <test-case start="1560853610288" stop="1560853610288" status="passed">
+      <name>testGetDependencyInfo with data set "Plugin on class in different module"</name>
+    </test-case>
+    <test-case start="1560853610288" stop="1560853610288" status="passed">
+      <name>testGetDependencyInfo with data set "Plugin depends on arbitrary class in same module as subject"</name>
+    </test-case>
+    <test-case start="1560853610288" stop="1560853610288" status="passed">
+      <name>testGetDependencyInfo with data set "Plugin depends on arbitrary class in arbitrary module"</name>
+    </test-case>
+    <test-case start="1560853610288" stop="1560853610288" status="passed">
+      <name>testGetDefaultModelDependency with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
